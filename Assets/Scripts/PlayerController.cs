@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour {
 
     private Rigidbody2D _rigidBody;
     private Vector3 _velocity = Vector3.zero;
+    Vector3 targetVelocity;
 
     private void Awake()
     {
@@ -18,8 +19,11 @@ public class PlayerController : MonoBehaviour {
 
     private void Update()
     {
-        Vector3 targetVelocity = new Vector3(Input.GetAxis("Horizontal") * _runSpeed, Input.GetAxis("Vertical") * _runSpeed, 0.0f);
+        targetVelocity = new Vector3(Input.GetAxis("Horizontal") * _runSpeed, Input.GetAxis("Vertical") * _runSpeed, 0.0f);
+    }
 
+    private void FixedUpdate()
+    {
         _rigidBody.velocity = Vector3.SmoothDamp(_rigidBody.velocity, targetVelocity, ref _velocity, _smoothing);
     }
 }
