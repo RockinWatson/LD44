@@ -6,12 +6,11 @@ namespace Assets.Scripts
     {
         public float speed;
 
-        public GameObject player;
-
         //TODO: Enemy Reset
 
         private void FixedUpdate()
         {
+            Player player = Player.Get();
             var range = Vector2.Distance(transform.position, player.transform.position);
             transform.Translate(Vector2.MoveTowards(transform.position, player.transform.position, range) * speed * Time.deltaTime);
         }
