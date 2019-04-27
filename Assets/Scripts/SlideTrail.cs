@@ -19,6 +19,7 @@ public class SlideTrail : MonoBehaviour {
     private void Awake()
     {
         _lineRenderer = this.GetComponent<LineRenderer>();
+        _lineRenderer.material = new Material(Shader.Find("Sprites/Default"));
     }
 
     public void Initialize(PlayerController playerController)
@@ -61,11 +62,10 @@ public class SlideTrail : MonoBehaviour {
             }
             Color color = _lineRenderer.endColor;
             color.a = (_life / _lifeTime);
-            _lineRenderer.startColor = color;
+            color.a = Mathf.Max(0.0f, color.a - 0.15f);
             _lineRenderer.endColor = color;
-            //_lineRenderer.SetColors(color, color);
-
-            //_lineRenderer.alignment = LineAlignment.View;
+            color.a = Mathf.Max(0.0f, color.a - 0.35f);
+            _lineRenderer.startColor = color;
         }
 	}
 }
