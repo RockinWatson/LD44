@@ -42,12 +42,20 @@ public class PlayerController : MonoBehaviour {
     private void FixedUpdate()
     {
         _rigidBody.velocity = Vector3.SmoothDamp(_rigidBody.velocity, _targetVelocity, ref _velocity, _smoothing) * Time.fixedDeltaTime;
-
+        
         //if(_slideGo)
         //{
         //    Slide();
         //    _slideGo = false;
         //}
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Wall")
+        {
+            _rigidBody.velocity = Vector3.zero;
+        }
     }
 
     private void UpdatePlayerInput()
