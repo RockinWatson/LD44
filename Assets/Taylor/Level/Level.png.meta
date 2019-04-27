@@ -1,0 +1,257 @@
+fileFormatVersion: 2
+guid: 28621cc91b61d3341975b010e26a395e
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Level
+    21300002: chain1
+    21300004: chain3
+    21300006: chain4
+    21300008: doorentrace1
+    21300010: doorentrace2
+    21300012: doorshadow1
+    21300014: floor
+    21300016: life
+    21300018: menubar1
+    21300020: menudivider
+    21300022: torch
+    21300024: walls
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: chain1
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 1948
+        width: 61
+        height: 31
+      alignment: 9
+      pivot: {x: 0.47540984, y: 0.4516129}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chain3
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 1891
+        width: 22
+        height: 55
+      alignment: 9
+      pivot: {x: 0.6136364, y: 0.4909091}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chain4
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 1851
+        width: 20
+        height: 54
+      alignment: 9
+      pivot: {x: 0.575, y: 0.5185185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: doorentrace1
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 1981
+        width: 148
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5067568, y: 0.50757575}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: doorentrace2
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 1840
+        width: 66
+        height: 139
+      alignment: 9
+      pivot: {x: 0.4848485, y: 0.4820144}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: doorshadow1
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 1960
+        width: 143
+        height: 87
+      alignment: 9
+      pivot: {x: 0.4965035, y: 0.5229885}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: floor
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1381
+        width: 1298
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: life
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1977
+        width: 1431
+        height: 70
+      alignment: 9
+      pivot: {x: 0.5062893, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: menubar1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 649
+        width: 1288
+        height: 730
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: menudivider
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 1900
+        width: 17
+        height: 79
+      alignment: 9
+      pivot: {x: 0.5882353, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: torch
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 1907
+        width: 23
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5869565, y: 0.4871795}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: walls
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 66
+        width: 1288
+        height: 581
+      alignment: 9
+      pivot: {x: 0.4984472, y: 0.5060241}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -52,7 +52,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8acf25dac979b476e9809208d68a8114, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _lifeTime: 1.5
+  _lifeTime: 1
 --- !u!120 &120239835940656680
 LineRenderer:
   m_ObjectHideFlags: 1
@@ -97,8 +97,20 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 2
-        time: 0
-        value: 1
+        time: 0.14191437
+        value: 0.44000053
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.3383766
+        value: 0.6088648
+        inSlope: 0.8830428
+        outSlope: 0.8830428
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.82925963
+        value: 0.8533325
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -107,7 +119,7 @@ LineRenderer:
       m_RotationOrder: 0
     colorGradient:
       serializedVersion: 2
-      key0: {r: 1, g: 0, b: 0, a: 1}
+      key0: {r: 1, g: 0, b: 0, a: 0.3882353}
       key1: {r: 1, g: 0, b: 0, a: 1}
       key2: {r: 1, g: 0, b: 0, a: 0}
       key3: {r: 1, g: 0, b: 0, a: 0}
