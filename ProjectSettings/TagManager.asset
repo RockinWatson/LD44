@@ -44,3 +44,42 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Floor
+    uniqueID: 578609801
+    locked: 0
+  - name: Background1
+    uniqueID: 3912909711
+    locked: 0
+  - name: Background2
+    uniqueID: 42721669
+    locked: 0
+  - name: Background3
+    uniqueID: 1042965865
+    locked: 0
+  - name: WallDeco
+    uniqueID: 3768515077
+    locked: 0
+  - name: Summons
+    uniqueID: 2256448857
+    locked: 0
+  - name: Player
+    uniqueID: 2990422917
+    locked: 0
+  - name: Menu1
+    uniqueID: 3053384231
+    locked: 0
+  - name: Menu2
+    uniqueID: 713799269
+    locked: 0
+  - name: Menu3
+    uniqueID: 111538711
+    locked: 0
+  - name: Lifebar
+    uniqueID: 1791427373
+    locked: 0
+  - name: TopMenu
+    uniqueID: 2084802787
+    locked: 0
+  - name: Text
+    uniqueID: 2306792767
+    locked: 0

@@ -1,0 +1,997 @@
+fileFormatVersion: 2
+guid: 37d8e2202bd59264089ff7b5c437efcd
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: NecroCat
+    21300002: Idle_000
+    21300004: Idle_001
+    21300006: Idle_002
+    21300008: Idle_003
+    21300010: Idle_004
+    21300012: Idle_005
+    21300014: Idle_006
+    21300016: Idle_007
+    21300018: Idle_008
+    21300020: Idle_009
+    21300022: Idle_010
+    21300024: Idle_011
+    21300026: Idle_012
+    21300028: Idle_013
+    21300030: Idle_014
+    21300032: Idle_015
+    21300034: Idle_016
+    21300036: Idle_017
+    21300038: Idle_018
+    21300040: Idle_019
+    21300042: Idle_020
+    21300044: Idle_021
+    21300046: Idle_022
+    21300048: Idle_023
+    21300050: Idle_024
+    21300052: Idle_025
+    21300054: Idle_026
+    21300056: Idle_027
+    21300058: Idle_028
+    21300060: Idle_029
+    21300062: Run_000
+    21300064: Run_001
+    21300066: Run_002
+    21300068: Run_003
+    21300070: Run_004
+    21300072: Run_005
+    21300074: Run_006
+    21300076: Run_007
+    21300078: Run_008
+    21300080: Run_009
+    21300082: Run_010
+    21300084: Run_011
+    21300086: Run_012
+    21300088: Run_013
+    21300090: Run_014
+    21300092: Run_015
+    21300094: Run_016
+    21300096: Run_017
+    21300098: Run_018
+    21300100: Run_019
+    21300102: Run_020
+    21300104: Run_021
+    21300106: Run_022
+    21300108: Run_023
+    21300110: Run_024
+    21300112: Run_025
+    21300114: Run_026
+    21300116: Run_027
+    21300118: Run_028
+    21300120: Run_029
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Idle_000
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 249
+        width: 84
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5119048, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Idle_001
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 248
+        width: 84
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5119048, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Idle_002
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 248
+        width: 84
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5119048, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Idle_003
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 247
+        width: 84
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5119048, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Idle_004
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 248
+        width: 84
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5119048, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Idle_005
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 173
+        width: 84
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5119048, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Idle_006
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 172
+        width: 84
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5119048, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Idle_007
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 477
+        width: 86
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Idle_008
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 171
+        width: 83
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5180723, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Idle_009
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 172
+        width: 83
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5180723, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Idle_010
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 97
+        width: 83
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5180723, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Idle_011
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 21
+        width: 83
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5180723, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Idle_012
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 21
+        width: 83
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5180723, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Idle_013
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 96
+        width: 83
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5180723, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Idle_014
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 476
+        width: 86
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Idle_015
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 476
+        width: 86
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Idle_016
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 20
+        width: 83
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5180723, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Idle_017
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 172
+        width: 84
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5119048, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Idle_018
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 325
+        width: 85
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5058824, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Idle_019
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 324
+        width: 85
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5058824, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Idle_020
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 475
+        width: 86
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Idle_021
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 476
+        width: 86
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Idle_022
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 401
+        width: 86
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Idle_023
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 400
+        width: 86
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Idle_024
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 400
+        width: 86
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Idle_025
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 399
+        width: 86
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Idle_026
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 400
+        width: 86
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Idle_027
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 324
+        width: 85
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5058824, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Idle_028
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 323
+        width: 85
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5058824, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Idle_029
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 324
+        width: 85
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5058824, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Run_000
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 711
+        width: 92
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Run_001
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 867
+        width: 93
+        height: 77
+      alignment: 9
+      pivot: {x: 0.50537634, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Run_002
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 551
+        width: 86
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Run_003
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 552
+        width: 86
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Run_004
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 553
+        width: 87
+        height: 77
+      alignment: 9
+      pivot: {x: 0.49425286, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Run_005
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 552
+        width: 87
+        height: 77
+      alignment: 9
+      pivot: {x: 0.49425286, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Run_006
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 631
+        width: 88
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Run_007
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 630
+        width: 88
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Run_008
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 631
+        width: 88
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Run_009
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 631
+        width: 89
+        height: 77
+      alignment: 9
+      pivot: {x: 0.505618, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Run_010
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 710
+        width: 90
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Run_011
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 709
+        width: 89
+        height: 77
+      alignment: 9
+      pivot: {x: 0.49438202, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Run_012
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 632
+        width: 90
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Run_013
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 710
+        width: 89
+        height: 76
+      alignment: 9
+      pivot: {x: 0.49438202, y: 0.49342105}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Run_014
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 790
+        width: 93
+        height: 76
+      alignment: 9
+      pivot: {x: 0.49462366, y: 0.49342105}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Run_015
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 868
+        width: 94
+        height: 76
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49342105}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Run_016
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 789
+        width: 93
+        height: 76
+      alignment: 9
+      pivot: {x: 0.50537634, y: 0.49342105}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Run_017
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 710
+        width: 92
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Run_018
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 946
+        width: 94
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Run_019
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 946
+        width: 94
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Run_020
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 946
+        width: 94
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Run_021
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 868
+        width: 94
+        height: 76
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5065789}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Run_022
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 946
+        width: 94
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Run_023
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 946
+        width: 94
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Run_024
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 789
+        width: 93
+        height: 77
+      alignment: 9
+      pivot: {x: 0.49462366, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Run_025
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 867
+        width: 94
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Run_026
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 867
+        width: 94
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Run_027
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 788
+        width: 92
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Run_028
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 788
+        width: 91
+        height: 77
+      alignment: 9
+      pivot: {x: 0.50549453, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Run_029
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 552
+        width: 87
+        height: 77
+      alignment: 9
+      pivot: {x: 0.49425286, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
