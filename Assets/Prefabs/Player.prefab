@@ -118,6 +118,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7439d7921558d440db07ce6020ca3b93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _summons:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1824991192435556, guid: 7c1cc5a647dc5438fa3ac13e5d106131, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
   _healthStart: 2000
   _healthMax: 9000
   _harvestRadius: 1
