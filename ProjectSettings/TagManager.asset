@@ -62,6 +62,9 @@ TagManager:
   - name: Summons
     uniqueID: 2256448857
     locked: 0
+  - name: Enemy
+    uniqueID: 716877071
+    locked: 0
   - name: Player
     uniqueID: 2990422917
     locked: 0
