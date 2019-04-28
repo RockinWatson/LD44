@@ -10,11 +10,10 @@ public class Enemy : MonoBehaviour
 
     //TODO: Enemy Reset
 
-    private void FixedUpdate()
+    private void Update()
     {
         Player player = Player.Get();
-        var range = Vector2.Distance(transform.position, player.transform.position);
-        transform.Translate(Vector2.MoveTowards(transform.position, player.transform.position, range) * speed * Time.deltaTime);
+        transform.position += (player.transform.position - transform.position).normalized * speed * Time.deltaTime;
     }
 
     private void Reset()

@@ -1,0 +1,5027 @@
+fileFormatVersion: 2
+guid: 356162e32e493e64c9f1d7d3d8ba8db1
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ManyAnimations
+    21300002: DeadDog1_000
+    21300004: DeadDog1_001
+    21300006: DeadDog1_002
+    21300008: DeadDog1_003
+    21300010: DeadDog1_004
+    21300012: DeadDog1_005
+    21300014: DeadDog1_006
+    21300016: DeadDog1_007
+    21300018: DeadDog1_008
+    21300020: DeadDog1_009
+    21300022: DeadDog1_010
+    21300024: DeadDog1_011
+    21300026: DeadDog1_012
+    21300028: DeadDog1_013
+    21300030: DeadDog1_014
+    21300032: DeadDog1_015
+    21300034: DeadDog1_016
+    21300036: DeadDog1_017
+    21300038: DeadDog1_018
+    21300040: DeadDog1_019
+    21300042: DeadDog1_020
+    21300044: DeadDog1_021
+    21300046: DeadDog1_022
+    21300048: DeadDog1_023
+    21300050: DeadDog1_024
+    21300052: DeadDog1_025
+    21300054: DeadDog1_026
+    21300056: DeadDog1_027
+    21300058: DeadDog1_028
+    21300060: DeadDog1_029
+    21300062: Decoy_000
+    21300064: Decoy_001
+    21300066: Decoy_002
+    21300068: Decoy_003
+    21300070: Decoy_004
+    21300072: Decoy_005
+    21300074: Decoy_006
+    21300076: Decoy_007
+    21300078: Decoy_008
+    21300080: Decoy_009
+    21300082: Decoy_010
+    21300084: Decoy_011
+    21300086: Decoy_012
+    21300088: Decoy_013
+    21300090: Decoy_014
+    21300092: Decoy_015
+    21300094: Decoy_016
+    21300096: Decoy_017
+    21300098: Decoy_018
+    21300100: Decoy_019
+    21300102: Decoy_020
+    21300104: Decoy_021
+    21300106: Decoy_022
+    21300108: Decoy_023
+    21300110: Decoy_024
+    21300112: Decoy_025
+    21300114: Decoy_026
+    21300116: Decoy_027
+    21300118: Decoy_028
+    21300120: Decoy_029
+    21300122: Dog1_000
+    21300124: Dog1_001
+    21300126: Dog1_002
+    21300128: Dog1_003
+    21300130: Dog1_004
+    21300132: Dog1_005
+    21300134: Dog1_006
+    21300136: Dog1_007
+    21300138: Dog1_008
+    21300140: Dog1_009
+    21300142: Dog1_010
+    21300144: Dog1_011
+    21300146: Dog1_012
+    21300148: Dog1_013
+    21300150: Dog1_014
+    21300152: Dog1_015
+    21300154: Dog1_016
+    21300156: Dog1_017
+    21300158: Dog1_018
+    21300160: Dog1_019
+    21300162: Dog1_020
+    21300164: Dog1_021
+    21300166: Dog1_022
+    21300168: Dog1_023
+    21300170: Dog1_024
+    21300172: Dog1_025
+    21300174: Dog1_026
+    21300176: Dog1_027
+    21300178: Dog1_028
+    21300180: Dog1_029
+    21300182: Dog2_000
+    21300184: Dog2_001
+    21300186: Dog2_002
+    21300188: Dog2_003
+    21300190: Dog2_004
+    21300192: Dog2_005
+    21300194: Dog2_006
+    21300196: Dog2_007
+    21300198: Dog2_008
+    21300200: Dog2_009
+    21300202: Dog2_010
+    21300204: Dog2_011
+    21300206: Dog2_012
+    21300208: Dog2_013
+    21300210: Dog2_014
+    21300212: Dog2_015
+    21300214: Dog2_016
+    21300216: Dog2_017
+    21300218: Dog2_018
+    21300220: Dog2_019
+    21300222: Dog2_020
+    21300224: Dog2_021
+    21300226: Dog2_022
+    21300228: Dog2_023
+    21300230: Dog2_024
+    21300232: Dog2_025
+    21300234: Dog2_026
+    21300236: Dog2_027
+    21300238: Dog2_028
+    21300240: Dog2_029
+    21300242: Dog3_000
+    21300244: Dog3_001
+    21300246: Dog3_002
+    21300248: Dog3_003
+    21300250: Dog3_004
+    21300252: Dog3_005
+    21300254: Dog3_006
+    21300256: Dog3_007
+    21300258: Dog3_008
+    21300260: Dog3_009
+    21300262: Dog3_010
+    21300264: Dog3_011
+    21300266: Dog3_012
+    21300268: Dog3_013
+    21300270: Dog3_014
+    21300272: Dog3_015
+    21300274: Dog3_016
+    21300276: Dog3_017
+    21300278: Dog3_018
+    21300280: Dog3_019
+    21300282: Dog3_020
+    21300284: Dog3_021
+    21300286: Dog3_022
+    21300288: Dog3_023
+    21300290: Dog3_024
+    21300292: Dog3_025
+    21300294: Dog3_026
+    21300296: Dog3_027
+    21300298: Dog3_028
+    21300300: Dog3_029
+    21300302: Dog4_000
+    21300304: Dog4_001
+    21300306: Dog4_002
+    21300308: Dog4_003
+    21300310: Dog4_004
+    21300312: Dog4_005
+    21300314: Dog4_006
+    21300316: Dog4_007
+    21300318: Dog4_008
+    21300320: Dog4_009
+    21300322: Dog4_010
+    21300324: Dog4_011
+    21300326: Dog4_012
+    21300328: Dog4_013
+    21300330: Dog4_014
+    21300332: Dog4_015
+    21300334: Dog4_016
+    21300336: Dog4_017
+    21300338: Dog4_018
+    21300340: Dog4_019
+    21300342: Dog4_020
+    21300344: Dog4_021
+    21300346: Dog4_022
+    21300348: Dog4_023
+    21300350: Dog4_024
+    21300352: Dog4_025
+    21300354: Dog4_026
+    21300356: Dog4_027
+    21300358: Dog4_028
+    21300360: Dog4_029
+    21300362: LifeGain_000
+    21300364: LifeGain_001
+    21300366: LifeGain_002
+    21300368: LifeGain_003
+    21300370: LifeGain_004
+    21300372: LifeGain_005
+    21300374: LifeGain_006
+    21300376: LifeGain_007
+    21300378: LifeGain_008
+    21300380: LifeGain_009
+    21300382: LifeGain_010
+    21300384: LifeGain_011
+    21300386: LifeGain_012
+    21300388: LifeGain_013
+    21300390: LifeGain_014
+    21300392: LifeGain_015
+    21300394: LifeGain_016
+    21300396: LifeGain_017
+    21300398: LifeGain_018
+    21300400: LifeGain_019
+    21300402: LifeGain_020
+    21300404: LifeGain_021
+    21300406: LifeGain_022
+    21300408: LifeGain_023
+    21300410: LifeGain_024
+    21300412: LifeGain_025
+    21300414: LifeGain_026
+    21300416: LifeGain_027
+    21300418: LifeGain_028
+    21300420: LifeGain_029
+    21300422: Lightning_000
+    21300424: Lightning_001
+    21300426: Lightning_002
+    21300428: Lightning_003
+    21300430: Lightning_004
+    21300432: Lightning_005
+    21300434: Lightning_006
+    21300436: Lightning_007
+    21300438: Lightning_008
+    21300440: Lightning_009
+    21300442: Lightning_010
+    21300444: Lightning_011
+    21300446: Lightning_012
+    21300448: Lightning_013
+    21300450: Lightning_014
+    21300452: Lightning_015
+    21300454: Lightning_016
+    21300456: Lightning_017
+    21300458: Lightning_018
+    21300460: Lightning_019
+    21300462: Lightning_020
+    21300464: Lightning_021
+    21300466: Lightning_022
+    21300468: Lightning_023
+    21300470: Lightning_024
+    21300472: Lightning_025
+    21300474: Lightning_026
+    21300476: Lightning_027
+    21300478: Lightning_028
+    21300480: Lightning_029
+    21300482: Postman_000
+    21300484: Postman_001
+    21300486: Postman_002
+    21300488: Postman_003
+    21300490: Postman_004
+    21300492: Postman_005
+    21300494: Postman_006
+    21300496: Postman_007
+    21300498: Postman_008
+    21300500: Postman_009
+    21300502: Postman_010
+    21300504: Postman_011
+    21300506: Postman_012
+    21300508: Postman_013
+    21300510: Postman_014
+    21300512: Postman_015
+    21300514: Postman_016
+    21300516: Postman_017
+    21300518: Postman_018
+    21300520: Postman_019
+    21300522: Postman_020
+    21300524: Postman_021
+    21300526: Postman_022
+    21300528: Postman_023
+    21300530: Postman_024
+    21300532: Postman_025
+    21300534: Postman_026
+    21300536: Postman_027
+    21300538: Postman_028
+    21300540: Postman_029
+    21300542: vac_000
+    21300544: vac_001
+    21300546: vac_002
+    21300548: vac_003
+    21300550: vac_004
+    21300552: vac_005
+    21300554: vac_006
+    21300556: vac_007
+    21300558: vac_008
+    21300560: vac_009
+    21300562: vac_010
+    21300564: vac_011
+    21300566: vac_012
+    21300568: vac_013
+    21300570: vac_014
+    21300572: vac_015
+    21300574: vac_016
+    21300576: vac_017
+    21300578: vac_018
+    21300580: vac_019
+    21300582: vac_020
+    21300584: vac_021
+    21300586: vac_022
+    21300588: vac_023
+    21300590: vac_024
+    21300592: vac_025
+    21300594: vac_026
+    21300596: vac_027
+    21300598: vac_028
+    21300600: vac_029
+    21300602: Vet_000
+    21300604: Vet_001
+    21300606: Vet_002
+    21300608: Vet_003
+    21300610: Vet_004
+    21300612: Vet_005
+    21300614: Vet_006
+    21300616: Vet_007
+    21300618: Vet_008
+    21300620: Vet_009
+    21300622: Vet_010
+    21300624: Vet_011
+    21300626: Vet_012
+    21300628: Vet_013
+    21300630: Vet_014
+    21300632: Vet_015
+    21300634: Vet_016
+    21300636: Vet_017
+    21300638: Vet_018
+    21300640: Vet_019
+    21300642: Vet_020
+    21300644: Vet_021
+    21300646: Vet_022
+    21300648: Vet_023
+    21300650: Vet_024
+    21300652: Vet_025
+    21300654: Vet_026
+    21300656: Vet_027
+    21300658: Vet_028
+    21300660: Vet_029
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DeadDog1_000
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 1183
+        width: 58
+        height: 52
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.8269231}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DeadDog1_001
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1172
+        width: 58
+        height: 52
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.8269231}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DeadDog1_002
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 1034
+        width: 54
+        height: 54
+      alignment: 9
+      pivot: {x: 0.44444445, y: 0.7962963}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DeadDog1_003
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1194
+        width: 56
+        height: 53
+      alignment: 9
+      pivot: {x: 0.4642857, y: 0.8113208}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DeadDog1_004
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1234
+        width: 57
+        height: 62
+      alignment: 9
+      pivot: {x: 0.47368422, y: 0.6935484}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DeadDog1_005
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 1196
+        width: 58
+        height: 50
+      alignment: 9
+      pivot: {x: 0.4827586, y: 0.86}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DeadDog1_006
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1499
+        width: 60
+        height: 54
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7962963}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DeadDog1_007
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 1466
+        width: 60
+        height: 58
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7413793}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DeadDog1_008
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1283
+        width: 59
+        height: 56
+      alignment: 9
+      pivot: {x: 0.4915254, y: 0.76785713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DeadDog1_009
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1198
+        width: 58
+        height: 53
+      alignment: 9
+      pivot: {x: 0.4827586, y: 0.8113208}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DeadDog1_010
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 1248
+        width: 58
+        height: 58
+      alignment: 9
+      pivot: {x: 0.4827586, y: 0.7413793}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DeadDog1_011
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1034
+        width: 54
+        height: 57
+      alignment: 9
+      pivot: {x: 0.46296296, y: 0.75438595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DeadDog1_012
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 881
+        width: 51
+        height: 60
+      alignment: 9
+      pivot: {x: 0.4509804, y: 0.71666664}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DeadDog1_013
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1253
+        width: 58
+        height: 70
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.6142857}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DeadDog1_014
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 942
+        width: 51
+        height: 65
+      alignment: 9
+      pivot: {x: 0.4509804, y: 0.6615385}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DeadDog1_015
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1249
+        width: 58
+        height: 80
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.5375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DeadDog1_016
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1339
+        width: 58
+        height: 82
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.5243902}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DeadDog1_017
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1249
+        width: 58
+        height: 85
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.5058824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DeadDog1_018
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 1176
+        width: 58
+        height: 79
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.5443038}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DeadDog1_019
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 1425
+        width: 58
+        height: 84
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.5119048}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DeadDog1_020
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1246
+        width: 58
+        height: 85
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.5058824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DeadDog1_021
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1511
+        width: 60
+        height: 85
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5058824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DeadDog1_022
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 1340
+        width: 58
+        height: 83
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.5180723}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DeadDog1_023
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1423
+        width: 58
+        height: 84
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.5119048}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DeadDog1_024
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1233
+        width: 58
+        height: 85
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.5058824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DeadDog1_025
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1274
+        width: 58
+        height: 86
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DeadDog1_026
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 1175
+        width: 58
+        height: 79
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.5443038}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DeadDog1_027
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 1254
+        width: 58
+        height: 81
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.5308642}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DeadDog1_028
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 1331
+        width: 58
+        height: 83
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.5180723}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DeadDog1_029
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 1122
+        width: 58
+        height: 52
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.8269231}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Decoy_000
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 852
+        width: 47
+        height: 74
+      alignment: 9
+      pivot: {x: 0.4680851, y: 0.6418919}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Decoy_001
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 942
+        width: 51
+        height: 90
+      alignment: 9
+      pivot: {x: 0.49019608, y: 0.5277778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Decoy_002
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1501
+        width: 59
+        height: 94
+      alignment: 9
+      pivot: {x: 0.5254237, y: 0.5053192}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Decoy_003
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 1416
+        width: 58
+        height: 95
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Decoy_004
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1337
+        width: 58
+        height: 94
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.5053192}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Decoy_005
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1325
+        width: 58
+        height: 92
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.5163044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Decoy_006
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1762
+        width: 62
+        height: 88
+      alignment: 9
+      pivot: {x: 0.5, y: 0.53977275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Decoy_007
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 1008
+        width: 57
+        height: 87
+      alignment: 9
+      pivot: {x: 0.54385966, y: 0.545977}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Decoy_008
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 1106
+        width: 57
+        height: 88
+      alignment: 9
+      pivot: {x: 0.54385966, y: 0.53977275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Decoy_009
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1706
+        width: 61
+        height: 89
+      alignment: 9
+      pivot: {x: 0.4918033, y: 0.53370786}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Decoy_010
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 1091
+        width: 57
+        height: 90
+      alignment: 9
+      pivot: {x: 0.50877196, y: 0.5277778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Decoy_011
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 968
+        width: 53
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4716981, y: 0.7421875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Decoy_012
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 1016
+        width: 57
+        height: 88
+      alignment: 9
+      pivot: {x: 0.50877196, y: 0.53977275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Decoy_013
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 1599
+        width: 60
+        height: 83
+      alignment: 9
+      pivot: {x: 0.51666665, y: 0.57228917}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Decoy_014
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 1572
+        width: 60
+        height: 82
+      alignment: 9
+      pivot: {x: 0.51666665, y: 0.5792683}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Decoy_015
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 1308
+        width: 58
+        height: 77
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.6168831}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Decoy_016
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1673
+        width: 61
+        height: 89
+      alignment: 9
+      pivot: {x: 0.4918033, y: 0.53370786}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Decoy_017
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1196
+        width: 58
+        height: 85
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5588235}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Decoy_018
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1709
+        width: 61
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5081967, y: 0.5523256}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Decoy_019
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1256
+        width: 58
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4827586, y: 0.5792683}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Decoy_020
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1509
+        width: 60
+        height: 88
+      alignment: 9
+      pivot: {x: 0.48333332, y: 0.53977275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Decoy_021
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1325
+        width: 58
+        height: 89
+      alignment: 9
+      pivot: {x: 0.46551725, y: 0.53370786}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Decoy_022
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1298
+        width: 58
+        height: 89
+      alignment: 9
+      pivot: {x: 0.46551725, y: 0.53370786}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Decoy_023
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1823
+        width: 62
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5163044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Decoy_024
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 1593
+        width: 60
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5163044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Decoy_025
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 1759
+        width: 61
+        height: 94
+      alignment: 9
+      pivot: {x: 0.5081967, y: 0.5053192}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Decoy_026
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1599
+        width: 60
+        height: 94
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5053192}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Decoy_027
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 1498
+        width: 59
+        height: 94
+      alignment: 9
+      pivot: {x: 0.5084746, y: 0.5053192}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Decoy_028
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 1598
+        width: 60
+        height: 95
+      alignment: 9
+      pivot: {x: 0.51666665, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Decoy_029
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 1595
+        width: 60
+        height: 95
+      alignment: 9
+      pivot: {x: 0.51666665, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog1_000
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1039
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog1_001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 914
+        width: 49
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48913044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog1_002
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1027
+        width: 49
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5, y: 0.51086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog1_003
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1019
+        width: 49
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5, y: 0.51086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog1_004
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1014
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog1_005
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 1011
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog1_006
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 999
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog1_007
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 954
+        width: 48
+        height: 47
+      alignment: 9
+      pivot: {x: 0.48958334, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog1_008
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 962
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog1_009
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 954
+        width: 47
+        height: 47
+      alignment: 9
+      pivot: {x: 0.4787234, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog1_010
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 869
+        width: 48
+        height: 46
+      alignment: 9
+      pivot: {x: 0.48958334, y: 0.48913044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog1_011
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 797
+        width: 45
+        height: 47
+      alignment: 9
+      pivot: {x: 0.45555556, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog1_012
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 919
+        width: 47
+        height: 47
+      alignment: 9
+      pivot: {x: 0.4787234, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog1_013
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1116
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog1_014
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1003
+        width: 49
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5, y: 0.51086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog1_015
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 928
+        width: 48
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5104167, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog1_016
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 918
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog1_017
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 977
+        width: 49
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5, y: 0.51086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog1_018
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1067
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog1_019
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 905
+        width: 47
+        height: 47
+      alignment: 9
+      pivot: {x: 0.4787234, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog1_020
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1051
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog1_021
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 1025
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog1_022
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 893
+        width: 48
+        height: 47
+      alignment: 9
+      pivot: {x: 0.48958334, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog1_023
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 990
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog1_024
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 942
+        width: 49
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5, y: 0.51086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog1_025
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 965
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog1_026
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 962
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog1_027
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 950
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog1_028
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 917
+        width: 49
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48913044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog1_029
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 914
+        width: 49
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48913044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog2_000
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 1793
+        width: 61
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.509434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog2_001
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 1764
+        width: 61
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.509434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog2_002
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 1738
+        width: 61
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.509434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog2_003
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1622
+        width: 61
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5510204}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog2_004
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1607
+        width: 61
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog2_005
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 1794
+        width: 61
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog2_006
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1503
+        width: 60
+        height: 48
+      alignment: 9
+      pivot: {x: 0.49166667, y: 0.5625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog2_007
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1737
+        width: 61
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.509434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog2_008
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1557
+        width: 61
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog2_009
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1695
+        width: 61
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5744681}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog2_010
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1695
+        width: 61
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5744681}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog2_011
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1794
+        width: 61
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog2_012
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 1710
+        width: 61
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5192308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog2_013
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1555
+        width: 61
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog2_014
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 1741
+        width: 61
+        height: 51
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5294118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog2_015
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1592
+        width: 61
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.53061223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog2_016
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 1692
+        width: 61
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5744681}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog2_017
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1794
+        width: 61
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog2_018
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1553
+        width: 61
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog2_019
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1657
+        width: 61
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.54}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog2_020
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 1684
+        width: 61
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5192308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog2_021
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1744
+        width: 61
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog2_022
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1657
+        width: 61
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5744681}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog2_023
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1744
+        width: 61
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog2_024
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1706
+        width: 61
+        height: 51
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5294118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog2_025
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 1656
+        width: 61
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog2_026
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1687
+        width: 61
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5416667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog2_027
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1560
+        width: 61
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.53061223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog2_028
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1792
+        width: 61
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog2_029
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1654
+        width: 61
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.54}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog3_000
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 729
+        width: 37
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4893617}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog3_001
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 809
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog3_002
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 802
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog3_003
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 754
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog3_004
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 722
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog3_005
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 754
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog3_006
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 1800
+        width: 36
+        height: 48
+      alignment: 9
+      pivot: {x: 0.4861111, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog3_007
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 1750
+        width: 36
+        height: 48
+      alignment: 9
+      pivot: {x: 0.4861111, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog3_008
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 1700
+        width: 36
+        height: 48
+      alignment: 9
+      pivot: {x: 0.4861111, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog3_009
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 704
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog3_010
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 757
+        width: 37
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4893617}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog3_011
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 741
+        width: 37
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4893617}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog3_012
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 704
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog3_013
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 773
+        width: 37
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4893617}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog3_014
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 699
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog3_015
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 773
+        width: 37
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4893617}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog3_016
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 699
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog3_017
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 812
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog3_018
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 806
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog3_019
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 790
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog3_020
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 759
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog3_021
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 812
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog3_022
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 778
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog3_023
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 773
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog3_024
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 762
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog3_025
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 748
+        width: 37
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4893617}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog3_026
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 719
+        width: 37
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4893617}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog3_027
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 762
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog3_028
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 713
+        width: 37
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4893617}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog3_029
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 673
+        width: 37
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4893617}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog4_000
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 762
+        width: 38
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4878049}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog4_001
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 1651
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog4_002
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 1607
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog4_003
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 1563
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog4_004
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 1519
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog4_005
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 1475
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog4_006
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 1204
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog4_007
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 1160
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog4_008
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 1116
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog4_009
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 1072
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog4_010
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 1028
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog4_011
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 862
+        width: 38
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4878049}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog4_012
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 984
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog4_013
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 940
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog4_014
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 896
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog4_015
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 990
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog4_016
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 946
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog4_017
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 902
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog4_018
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 959
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog4_019
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 915
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog4_020
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 871
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog4_021
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 805
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog4_022
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 768
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog4_023
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 899
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog4_024
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 883
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog4_025
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 772
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog4_026
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 862
+        width: 38
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4878049}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog4_027
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 828
+        width: 38
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4878049}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog4_028
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 856
+        width: 38
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4878049}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Dog4_029
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 840
+        width: 38
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4878049}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LifeGain_000
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1170
+        width: 56
+        height: 82
+      alignment: 9
+      pivot: {x: 0.49107143, y: 0.61585367}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LifeGain_001
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1093
+        width: 55
+        height: 80
+      alignment: 9
+      pivot: {x: 0.48181817, y: 0.61875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LifeGain_002
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 934
+        width: 57
+        height: 80
+      alignment: 9
+      pivot: {x: 0.48245615, y: 0.61875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LifeGain_003
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 1090
+        width: 57
+        height: 80
+      alignment: 9
+      pivot: {x: 0.48245615, y: 0.61875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LifeGain_004
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 1009
+        width: 57
+        height: 80
+      alignment: 9
+      pivot: {x: 0.48245615, y: 0.61875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LifeGain_005
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 1384
+        width: 58
+        height: 80
+      alignment: 9
+      pivot: {x: 0.49137932, y: 0.61875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LifeGain_006
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 1308
+        width: 58
+        height: 80
+      alignment: 9
+      pivot: {x: 0.49137932, y: 0.61875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LifeGain_007
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 1257
+        width: 58
+        height: 80
+      alignment: 9
+      pivot: {x: 0.49137932, y: 0.61875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LifeGain_008
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1325
+        width: 58
+        height: 80
+      alignment: 9
+      pivot: {x: 0.49137932, y: 0.61875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LifeGain_009
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 1515
+        width: 59
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.61875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LifeGain_010
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 1513
+        width: 59
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.61875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LifeGain_011
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 1433
+        width: 59
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.61875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LifeGain_012
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 1419
+        width: 59
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.61875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LifeGain_013
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 1416
+        width: 59
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.61875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LifeGain_014
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1389
+        width: 59
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.61875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LifeGain_015
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1362
+        width: 59
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.61875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LifeGain_016
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1336
+        width: 59
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.61875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LifeGain_017
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1333
+        width: 59
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.61875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LifeGain_018
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1320
+        width: 59
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.61875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LifeGain_019
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1418
+        width: 59
+        height: 81
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6111111}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LifeGain_020
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 1302
+        width: 58
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5086207, y: 0.61875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LifeGain_021
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1226
+        width: 58
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5086207, y: 0.61875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LifeGain_022
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1415
+        width: 59
+        height: 81
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6111111}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LifeGain_023
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 1390
+        width: 58
+        height: 83
+      alignment: 9
+      pivot: {x: 0.5086207, y: 0.59638554}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LifeGain_024
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1444
+        width: 59
+        height: 87
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5689655}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LifeGain_025
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 1471
+        width: 59
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55617976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LifeGain_026
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1402
+        width: 59
+        height: 95
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52105266}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LifeGain_027
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1401
+        width: 59
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5, y: 0.495}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LifeGain_028
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1097
+        width: 57
+        height: 99
+      alignment: 9
+      pivot: {x: 0.48245615, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LifeGain_029
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 749
+        width: 49
+        height: 80
+      alignment: 9
+      pivot: {x: 0.47959185, y: 0.61875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Lightning_000
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1178
+        width: 56
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Lightning_001
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 1138
+        width: 56
+        height: 93
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50537634}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Lightning_002
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1101
+        width: 56
+        height: 93
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50537634}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Lightning_003
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1088
+        width: 56
+        height: 88
+      alignment: 9
+      pivot: {x: 0.5, y: 0.53409094}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Lightning_004
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1230
+        width: 56
+        height: 93
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50537634}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Lightning_005
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1063
+        width: 56
+        height: 88
+      alignment: 9
+      pivot: {x: 0.5, y: 0.53409094}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Lightning_006
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 1060
+        width: 56
+        height: 88
+      alignment: 9
+      pivot: {x: 0.5, y: 0.53409094}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Lightning_007
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 1048
+        width: 56
+        height: 88
+      alignment: 9
+      pivot: {x: 0.5, y: 0.53409094}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Lightning_008
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1165
+        width: 56
+        height: 93
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50537634}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Lightning_009
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1139
+        width: 56
+        height: 93
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50537634}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Lightning_010
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 1153
+        width: 56
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Lightning_011
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1150
+        width: 56
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Lightning_012
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1099
+        width: 55
+        height: 93
+      alignment: 9
+      pivot: {x: 0.5090909, y: 0.50537634}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Lightning_013
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1075
+        width: 55
+        height: 93
+      alignment: 9
+      pivot: {x: 0.4909091, y: 0.50537634}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Lightning_014
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1011
+        width: 56
+        height: 88
+      alignment: 9
+      pivot: {x: 0.5, y: 0.53409094}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Lightning_015
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 1003
+        width: 54
+        height: 94
+      alignment: 9
+      pivot: {x: 0.5185185, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Lightning_016
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 965
+        width: 53
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5283019, y: 0.5222222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Lightning_017
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 849
+        width: 50
+        height: 91
+      alignment: 9
+      pivot: {x: 0.56, y: 0.51648355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Lightning_018
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 820
+        width: 48
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5833333, y: 0.51086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Lightning_019
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 859
+        width: 47
+        height: 93
+      alignment: 9
+      pivot: {x: 0.59574467, y: 0.50537634}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Lightning_020
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 1953
+        width: 48
+        height: 94
+      alignment: 9
+      pivot: {x: 0.5833333, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Lightning_021
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 854
+        width: 48
+        height: 94
+      alignment: 9
+      pivot: {x: 0.5625, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Lightning_022
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 823
+        width: 46
+        height: 94
+      alignment: 9
+      pivot: {x: 0.5652174, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Lightning_023
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 846
+        width: 45
+        height: 94
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Lightning_024
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 822
+        width: 45
+        height: 94
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Lightning_025
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 812
+        width: 45
+        height: 88
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.53409094}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Lightning_026
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 943
+        width: 48
+        height: 82
+      alignment: 9
+      pivot: {x: 0.5208333, y: 0.5731707}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Lightning_027
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 957
+        width: 48
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5416667, y: 0.78333336}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Lightning_028
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 869
+        width: 48
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5208333, y: 1.0930233}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Lightning_029
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 927
+        width: 48
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5208333, y: 1.6785715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Postman_000
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1057
+        width: 54
+        height: 63
+      alignment: 9
+      pivot: {x: 0.6111111, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Postman_001
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 869
+        width: 50
+        height: 63
+      alignment: 9
+      pivot: {x: 0.64, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Postman_002
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 1260
+        width: 57
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5964912, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Postman_003
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 828
+        width: 47
+        height: 63
+      alignment: 9
+      pivot: {x: 0.68085104, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Postman_004
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1100
+        width: 49
+        height: 63
+      alignment: 9
+      pivot: {x: 0.6530612, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Postman_005
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 816
+        width: 50
+        height: 63
+      alignment: 9
+      pivot: {x: 0.66, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Postman_006
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 831
+        width: 50
+        height: 63
+      alignment: 9
+      pivot: {x: 0.68, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Postman_007
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 943
+        width: 51
+        height: 63
+      alignment: 9
+      pivot: {x: 0.64705884, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Postman_008
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1074
+        width: 49
+        height: 63
+      alignment: 9
+      pivot: {x: 0.67346936, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Postman_009
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1165
+        width: 56
+        height: 63
+      alignment: 9
+      pivot: {x: 0.60714287, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Postman_010
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 1507
+        width: 60
+        height: 63
+      alignment: 9
+      pivot: {x: 0.56666666, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Postman_011
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1984
+        width: 68
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Postman_012
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1917
+        width: 66
+        height: 63
+      alignment: 9
+      pivot: {x: 0.4848485, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Postman_013
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1984
+        width: 68
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Postman_014
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1984
+        width: 68
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Postman_015
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1722
+        width: 64
+        height: 63
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Postman_016
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 1237
+        width: 58
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5862069, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Postman_017
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 804
+        width: 50
+        height: 63
+      alignment: 9
+      pivot: {x: 0.64, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Postman_018
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1919
+        width: 67
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5074627, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Postman_019
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1984
+        width: 68
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Postman_020
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 1984
+        width: 68
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Postman_021
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1984
+        width: 68
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Postman_022
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 1917
+        width: 66
+        height: 63
+      alignment: 9
+      pivot: {x: 0.4848485, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Postman_023
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 1984
+        width: 68
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Postman_024
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 1917
+        width: 66
+        height: 63
+      alignment: 9
+      pivot: {x: 0.4848485, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Postman_025
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 1984
+        width: 68
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Postman_026
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1919
+        width: 67
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5074627, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Postman_027
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1787
+        width: 65
+        height: 63
+      alignment: 9
+      pivot: {x: 0.52307695, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Postman_028
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1852
+        width: 63
+        height: 63
+      alignment: 9
+      pivot: {x: 0.53968257, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Postman_029
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 1467
+        width: 60
+        height: 63
+      alignment: 9
+      pivot: {x: 0.56666666, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: vac_000
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1725
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: vac_001
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1790
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: vac_002
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1702
+        width: 61
+        height: 58
+      alignment: 9
+      pivot: {x: 0.4918033, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: vac_003
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1730
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: vac_004
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1341
+        width: 59
+        height: 58
+      alignment: 9
+      pivot: {x: 0.47457626, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: vac_005
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1723
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: vac_006
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1665
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: vac_007
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1670
+        width: 61
+        height: 58
+      alignment: 9
+      pivot: {x: 0.4918033, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: vac_008
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1662
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: vac_009
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1764
+        width: 62
+        height: 57
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50877196}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: vac_010
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 1447
+        width: 60
+        height: 58
+      alignment: 9
+      pivot: {x: 0.48333332, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: vac_011
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 1407
+        width: 60
+        height: 58
+      alignment: 9
+      pivot: {x: 0.48333332, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: vac_012
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1533
+        width: 60
+        height: 57
+      alignment: 9
+      pivot: {x: 0.48333332, y: 0.50877196}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: vac_013
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1501
+        width: 60
+        height: 57
+      alignment: 9
+      pivot: {x: 0.48333332, y: 0.50877196}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: vac_014
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1603
+        width: 61
+        height: 57
+      alignment: 9
+      pivot: {x: 0.4918033, y: 0.50877196}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: vac_015
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 1387
+        width: 60
+        height: 58
+      alignment: 9
+      pivot: {x: 0.48333332, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: vac_016
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1597
+        width: 60
+        height: 58
+      alignment: 9
+      pivot: {x: 0.48333332, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: vac_017
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1597
+        width: 60
+        height: 58
+      alignment: 9
+      pivot: {x: 0.48333332, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: vac_018
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1594
+        width: 60
+        height: 58
+      alignment: 9
+      pivot: {x: 0.48333332, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: vac_019
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1498
+        width: 60
+        height: 57
+      alignment: 9
+      pivot: {x: 0.48333332, y: 0.50877196}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: vac_020
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1643
+        width: 61
+        height: 57
+      alignment: 9
+      pivot: {x: 0.4918033, y: 0.50877196}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: vac_021
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1611
+        width: 61
+        height: 57
+      alignment: 9
+      pivot: {x: 0.4918033, y: 0.50877196}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: vac_022
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1562
+        width: 60
+        height: 58
+      alignment: 9
+      pivot: {x: 0.48333332, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: vac_023
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1857
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: vac_024
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1663
+        width: 61
+        height: 58
+      alignment: 9
+      pivot: {x: 0.4918033, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: vac_025
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1857
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: vac_026
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1605
+        width: 61
+        height: 58
+      alignment: 9
+      pivot: {x: 0.4918033, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: vac_027
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 1855
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: vac_028
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1797
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: vac_029
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1797
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Vet_000
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 1532
+        width: 60
+        height: 65
+      alignment: 9
+      pivot: {x: 0.55833334, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Vet_001
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1917
+        width: 66
+        height: 65
+      alignment: 9
+      pivot: {x: 0.50757575, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Vet_002
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1915
+        width: 65
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5153846, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Vet_003
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 1526
+        width: 60
+        height: 65
+      alignment: 9
+      pivot: {x: 0.55833334, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Vet_004
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 1915
+        width: 65
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5153846, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Vet_005
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 1886
+        width: 65
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5153846, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Vet_006
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1850
+        width: 65
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5153846, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Vet_007
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 1850
+        width: 65
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5153846, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Vet_008
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 1850
+        width: 65
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5153846, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Vet_009
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1852
+        width: 66
+        height: 65
+      alignment: 9
+      pivot: {x: 0.50757575, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Vet_010
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1852
+        width: 66
+        height: 65
+      alignment: 9
+      pivot: {x: 0.50757575, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Vet_011
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1917
+        width: 66
+        height: 65
+      alignment: 9
+      pivot: {x: 0.50757575, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Vet_012
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1917
+        width: 66
+        height: 65
+      alignment: 9
+      pivot: {x: 0.50757575, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Vet_013
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1848
+        width: 65
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5153846, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Vet_014
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1917
+        width: 66
+        height: 65
+      alignment: 9
+      pivot: {x: 0.50757575, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Vet_015
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1850
+        width: 63
+        height: 65
+      alignment: 9
+      pivot: {x: 0.53174603, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Vet_016
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 1848
+        width: 65
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5153846, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Vet_017
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1917
+        width: 66
+        height: 65
+      alignment: 9
+      pivot: {x: 0.50757575, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Vet_018
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 1982
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Vet_019
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 1819
+        width: 65
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5153846, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Vet_020
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1850
+        width: 65
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5153846, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Vet_021
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1917
+        width: 66
+        height: 65
+      alignment: 9
+      pivot: {x: 0.50757575, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Vet_022
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1982
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Vet_023
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 1982
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Vet_024
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1982
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Vet_025
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 1982
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Vet_026
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 1915
+        width: 66
+        height: 65
+      alignment: 9
+      pivot: {x: 0.50757575, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Vet_027
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1982
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Vet_028
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1785
+        width: 64
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5234375, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Vet_029
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1783
+        width: 62
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5403226, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -52,7 +52,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Objects:
-  - {fileID: 1473049310205454, guid: 75d0c234346380a4fbb7c7ce07d98a28, type: 2}
+  - {fileID: 1414032877792954, guid: 3101e04ead95c524fa9a9e7bbb52809a, type: 2}
   ObjectPoolSize: 10
   WaitForNextMax: 3
   WaitForNextMin: 6

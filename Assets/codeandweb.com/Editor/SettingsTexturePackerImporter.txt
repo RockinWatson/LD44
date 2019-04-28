@@ -3,11 +3,11 @@ importPivots: 1
 tpsheetFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
 - Assets/Taylor/Level/Level.tpsheet
-- Assets/Taylor/Level/NecroCat.tpsheet
+- Assets/Taylor/Level/ManyAnimations.tpsheet
 textureFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 - Assets/Taylor/Level/Level.png
-- Assets/Taylor/Level/NecroCat.png
+- Assets/Taylor/Level/ManyAnimations.png
 normalmapFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
 - 
