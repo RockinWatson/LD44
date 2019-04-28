@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 61566873373131450}
   - component: {fileID: 114968482367078298}
   - component: {fileID: 114468406833573974}
+  - component: {fileID: 95314328827581244}
   m_Layer: 0
   m_Name: Player
   m_TagString: NecroCat
@@ -55,15 +56,15 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.0001
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
+  m_CollisionDetection: 1
+  m_Constraints: 4
 --- !u!61 &61566873373131450
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -76,19 +77,36 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.020914316, y: -0.09575367}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.64, y: 0.65}
+    pivot: {x: 0.5119048, y: 0.5}
+    oldSize: {x: 0.84, y: 0.74}
     newSize: {x: 0.16, y: 0.16}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.29429007, y: 0.3603115}
   m_EdgeRadius: 0
+--- !u!95 &95314328827581244
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1990210814177126}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9d9420b4bc7aab44682092a161b42a2a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &114468406833573974
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -100,6 +118,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7439d7921558d440db07ce6020ca3b93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _healthStart: 2000
+  _healthMax: 9000
+  _harvestRadius: 1
 --- !u!114 &114968482367078298
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -113,7 +134,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _runSpeed: 500
   _smoothing: 0.077
-  _slideForce: 77
+  _slideForce: 1
   _axisBias: {x: 1, y: 0.45}
   _slideTrail: {fileID: 1920566179337434, guid: 16833f5429448418ea9011e3f6bf903d,
     type: 2}
@@ -148,10 +169,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1304544379
+  m_SortingLayer: 7
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 824eac973fa16224e84e61d5d4dd05a8, type: 3}
+  m_Sprite: {fileID: 21300002, guid: 37d8e2202bd59264089ff7b5c437efcd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
