@@ -53,6 +53,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _lifeTime: 1
+  _attackRadius: 1
 --- !u!120 &120239835940656680
 LineRenderer:
   m_ObjectHideFlags: 1
@@ -85,7 +86,7 @@ LineRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1304544379
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_Positions:
   - {x: 0, y: 0, z: 1}
