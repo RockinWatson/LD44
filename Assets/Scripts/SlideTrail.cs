@@ -85,9 +85,11 @@ public class SlideTrail : MonoBehaviour {
         int count = Physics2D.CircleCast(_startPos, _attackRadius, _endPos - _startPos, new ContactFilter2D(), _hits, distance);
         if(count > 0)
         {
-            foreach(RaycastHit2D hit in _hits)
+            for(int i = 0; i < count; ++i)
+            //foreach(RaycastHit2D hit in _hits)
             {
-                if(hit && hit.transform)
+                RaycastHit2D hit = _hits[i];
+                if (hit && hit.transform)
                 {
                     Enemy enemy = hit.transform.GetComponent<Enemy>();
                     if(enemy)
