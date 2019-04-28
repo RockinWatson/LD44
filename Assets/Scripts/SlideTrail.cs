@@ -58,7 +58,7 @@ public class SlideTrail : MonoBehaviour {
                 _isRunning = false;
                 _life = _lifeTime;
 
-                AttackEnemies();
+                SlideActivate();
             }
         } else
         {
@@ -79,7 +79,7 @@ public class SlideTrail : MonoBehaviour {
         }
 	}
 
-    private void AttackEnemies()
+    private void SlideActivate()
     {
         float distance = Vector2.Distance(_startPos, _endPos) + _pierceDistance;
         int count = Physics2D.CircleCast(_startPos, _attackRadius, _endPos - _startPos, new ContactFilter2D(), _hits, distance);
@@ -95,6 +95,12 @@ public class SlideTrail : MonoBehaviour {
                     if(enemy)
                     {
                         enemy.Kill();
+                    }
+
+                    Corpse corpse = hit.transform.GetComponent<Corpse>();
+                    if (corpse && !corpse.IsHarvested())
+                    {
+                        corpse.Harvest();
                     }
                 }
             }
