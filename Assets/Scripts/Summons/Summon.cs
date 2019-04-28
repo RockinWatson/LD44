@@ -2,15 +2,31 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Summon : MonoBehaviour {
+abstract public class Summon : MonoBehaviour {
+
+    [SerializeField]
+    private float _lifetime = 10f;
+    private float _lifeTimer = 0f;
+
+    [SerializeField]
+    private float _healthCost = 10f;
 
     public enum Type
     {
 
     };
 
-    [SerializeField]
-    private float _healthCost = 10f;
+    private void Awake()
+    {
+        _lifeTimer = _lifetime;
+    }
 
-
+    virtual protected void Update()
+    {
+        _lifeTimer -= Time.deltaTime;
+        if (_lifeTimer < 0f)
+        {
+            Destroy(this.gameObject);
+        }
+    }
 }
