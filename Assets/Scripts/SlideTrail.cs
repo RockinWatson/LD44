@@ -8,6 +8,11 @@ public class SlideTrail : MonoBehaviour {
     private float _lifeTime = 5.0f;
     private float _life = 0.0f;
 
+    [SerializeField]
+    private float _attackRadius = 2f;
+
+    static private RaycastHit2D[] _hits = new RaycastHit2D[10];
+
     private LineRenderer _lineRenderer = null;
 
     private PlayerController _controller = null;
@@ -49,6 +54,8 @@ public class SlideTrail : MonoBehaviour {
             {
                 _isRunning = false;
                 _life = _lifeTime;
+
+                AttackEnemies();
             }
         } else
         {
@@ -68,4 +75,24 @@ public class SlideTrail : MonoBehaviour {
             _lineRenderer.startColor = color;
         }
 	}
+
+    private void AttackEnemies()
+    {
+        float distance = Vector2.Distance(_startPos, _endPos);
+        int count = Physics2D.CircleCast(_startPos, _attackRadius, _endPos - _startPos, new ContactFilter2D(), _hits, distance);
+        if(count > 0)
+        {
+            foreach(RaycastHit2D hit in _hits)
+            {
+                if(hit && hit.transform)
+                {
+                    Enemy enemy = hit.transform.GetComponent<Enemy>();
+                    if(enemy)
+                    {
+                        enemy.Kill();
+                    }
+                }
+            }
+        }
+    }
 }
