@@ -8,6 +8,9 @@ public class Player : MonoBehaviour {
     static public Player Get() { return _player; }
 
     [SerializeField]
+    private GameObject[] _summons = null;
+
+    [SerializeField]
     private float _healthStart = 2000f;
     [SerializeField]
     private float _healthMax = 9000f;
@@ -35,6 +38,10 @@ public class Player : MonoBehaviour {
         if(Input.GetKeyDown(KeyCode.E))
         {
             HarvestCorpses();
+        }
+        if(Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            Summon(2);
         }
     }
 
@@ -65,5 +72,10 @@ public class Player : MonoBehaviour {
     {
         Rect rect = new Rect(Vector2.zero, new Vector2(200f, 50f));
         GUI.TextArea(rect, _health + " / " + _healthMax);
+    }
+
+    private void Summon(int index)
+    {
+        Instantiate(_summons[index], this.transform.position, Quaternion.identity);
     }
 }
