@@ -12,8 +12,12 @@ public class Enemy : MonoBehaviour
 
     private void Update()
     {
+    }
+
+    private void FixedUpdate()
+    {
         Player player = Player.Get();
-        transform.position += (player.transform.position - transform.position).normalized * speed * Time.deltaTime;
+        transform.position += (player.transform.position - transform.position).normalized * speed * Time.fixedDeltaTime;
     }
 
     private void Reset()
@@ -25,6 +29,11 @@ public class Enemy : MonoBehaviour
     {
         Instantiate(_corpse, this.transform.position, Quaternion.identity);
 
+        Reset();
+    }
+
+    private void OnBeameInvisible()
+    {
         Reset();
     }
 }
