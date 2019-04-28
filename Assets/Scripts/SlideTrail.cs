@@ -11,6 +11,9 @@ public class SlideTrail : MonoBehaviour {
     [SerializeField]
     private float _attackRadius = 2f;
 
+    [SerializeField]
+    private float _pierceDistance = 1.0f;
+
     static private RaycastHit2D[] _hits = new RaycastHit2D[10];
 
     private LineRenderer _lineRenderer = null;
@@ -78,7 +81,7 @@ public class SlideTrail : MonoBehaviour {
 
     private void AttackEnemies()
     {
-        float distance = Vector2.Distance(_startPos, _endPos);
+        float distance = Vector2.Distance(_startPos, _endPos) + _pierceDistance;
         int count = Physics2D.CircleCast(_startPos, _attackRadius, _endPos - _startPos, new ContactFilter2D(), _hits, distance);
         if(count > 0)
         {
