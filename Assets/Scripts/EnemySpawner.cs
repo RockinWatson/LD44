@@ -7,15 +7,33 @@ namespace Assets.Scripts
     {
         public GameObject[] Objects;
         public int ObjectPoolSize;
-        public float WaitForNextMax;
-        public float WaitForNextMin;
-        public float CountDown;
+
+        [SerializeField]
+        private float _waitForNextMin = 1f;
+        [SerializeField]
+        private float _waitForNextMax = 10f;
+        [SerializeField]
+        private float _waitForNextRange = 3f;
+
+        [SerializeField]
+        private float _initialCountDown = 5f;
+        private float _countDown;
+
+        [SerializeField]
+        private float _intendedGameTimeSeconds = 120f;
+        private float _gameTime;
 
         public Sprite[] enemySprites;
         public RuntimeAnimatorController[] enemyAnimations;
 
         private List<GameObject> _objectsPool;
         private Transform _spawnerTrans;
+
+        private void Awake()
+        {
+            _countDown = _initialCountDown;
+            _gameTime = _intendedGameTimeSeconds;
+        }
 
         // Use this for initialization
         void Start()
@@ -34,13 +52,19 @@ namespace Assets.Scripts
         }
 
         // Update is called once per frame
-        void Update()
+        private void Update()
         {
-            CountDown -= Time.deltaTime;
-            if (CountDown <= 0)
+            _gameTime = Mathf.Max(0f, _gameTime - Time.deltaTime);
+            _countDown -= Time.deltaTime;
+            if (_countDown <= 0f)
             {
                 SpawnRandObj(_objectsPool, _spawnerTrans);
-                CountDown = Random.Range(WaitForNextMin, WaitForNextMax);
+
+                //@TODO: Update range based on time...
+                float nextSpawnTime = _waitForNextMin + (_waitForNextMax - _waitForNextMin) * _gameTime / _intendedGameTimeSeconds;
+
+                //Debug.Log("Range: " + nextSpawnTime + " - " + nextSpawnTime + _waitForNextRange);
+                _countDown = Random.Range(nextSpawnTime, nextSpawnTime + _waitForNextRange);
             }
         }
 
