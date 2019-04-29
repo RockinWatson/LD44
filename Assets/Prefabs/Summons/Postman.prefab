@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 50570583585247202}
   - component: {fileID: 61395348815046710}
   - component: {fileID: 82333874615515868}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Postman
   m_TagString: Untagged
   m_Icon: {fileID: 0}

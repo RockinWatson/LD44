@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 50612163290991802}
   - component: {fileID: 61278371369394810}
   - component: {fileID: 82365428710641760}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Vacuum
   m_TagString: Summons
   m_Icon: {fileID: 0}
