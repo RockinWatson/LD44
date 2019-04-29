@@ -15,6 +15,11 @@ public class Enemy : MonoBehaviour
     private Rigidbody2D _rigidBody;
     private SpriteRenderer _renderer;
 
+    private float _stunTimer = 0f;
+    public void Stun(float time) { _stunTimer = time; }
+
+    public bool IsEnabled() { return this.gameObject.activeInHierarchy; }
+
     private void Awake()
     {
         _maxHealth = _health;
@@ -32,6 +37,16 @@ public class Enemy : MonoBehaviour
     }
 
     private void FixedUpdate()
+    {
+        if(_stunTimer > 0f)
+        {
+            _stunTimer -= Time.fixedDeltaTime;
+            return;
+        }
+        UpdateMovement();
+    }
+
+    private void UpdateMovement()
     {
         Player player = Player.Get();
         transform.position += (player.transform.position - transform.position).normalized * speed * Time.fixedDeltaTime;
