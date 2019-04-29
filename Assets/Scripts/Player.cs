@@ -18,6 +18,9 @@ public class Player : MonoBehaviour {
     public float GetHealth() {
         return _health;
     }
+    public void TakeDmg() {
+        _health -= 1500f;
+    }
 
     [SerializeField]
     private float _elementZeroCost;
@@ -29,6 +32,9 @@ public class Player : MonoBehaviour {
     private float _elementThreeCost;
     [SerializeField]
     private float _elementFourCost;
+
+    [SerializeField]
+    private TextMesh _scoreTextMesh;
 
     [SerializeField]
     private float _harvestRadius = 3f;
@@ -102,18 +108,23 @@ public class Player : MonoBehaviour {
         {
             case 0:
                 _health -= _elementZeroCost;
+                _scoreTextMesh.text += _elementZeroCost;
                 break;
             case 1:
                 _health -= _elementOneCost;
+                _scoreTextMesh.text += _elementOneCost;
                 break;
             case 2:
                 _health -= _elementTwoCost;
+                _scoreTextMesh.text += _elementTwoCost;
                 break;
             case 3:
                 _health -= _elementThreeCost;
+                _scoreTextMesh.text += _elementThreeCost;
                 break;
             case 4:
                 _health -= _elementFourCost;
+                _scoreTextMesh.text += _elementFourCost;
                 break;
             default:
                 throw new System.Exception("Player Summon Index out of Range!!!!!!");

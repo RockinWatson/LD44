@@ -72,6 +72,10 @@ public class PlayerController : MonoBehaviour {
         {
             _rigidBody.velocity = Vector3.zero;
         }
+        if (collision.gameObject.tag == "Enemy")
+        {
+            Player.Get().TakeDmg();
+        }
     }
 
     private void UpdatePlayerInput()
