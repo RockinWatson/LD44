@@ -5,6 +5,9 @@ using UnityEngine;
 abstract public class Summon : MonoBehaviour {
 
     [SerializeField]
+    private GameObject _deathFX = null;
+
+    [SerializeField]
     private float _lifetime = 10f;
     private float _lifeTimer = 0f;
 
@@ -26,11 +29,17 @@ abstract public class Summon : MonoBehaviour {
         _lifeTimer -= Time.deltaTime;
         if (_lifeTimer < 0f)
         {
-            Destroy(this.gameObject);
+            Die();
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void Die()
     {
+        if(_deathFX)
+        {
+            Instantiate(_deathFX, this.transform.position, Quaternion.identity);
+        }
+
+        Destroy(this.gameObject);
     }
 }
