@@ -12,6 +12,9 @@ public class Enemy : MonoBehaviour
     private float _health = 10f;
     private float _maxHealth;
 
+    [SerializeField]
+    private GameObject _deathFX = null;
+
     private Rigidbody2D _rigidBody;
     private SpriteRenderer _renderer;
 
@@ -60,6 +63,7 @@ public class Enemy : MonoBehaviour
 
     public void Kill()
     {
+        Instantiate(_deathFX, this.transform.position, Quaternion.identity);
         Instantiate(_corpse, this.transform.position, Quaternion.identity);
 
         Reset();
