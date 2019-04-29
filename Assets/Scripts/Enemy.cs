@@ -8,13 +8,18 @@ public class Enemy : MonoBehaviour
     [SerializeField]
     private float speed = 1.0f;
 
+    [SerializeField]
+    private float _health = 10f;
+    private float _maxHealth;
+
     private Rigidbody2D _rigidBody;
+    private SpriteRenderer _renderer;
 
-    //TODO: Enemy Reset
-
-    private void Start()
+    private void Awake()
     {
-        _rigidBody = GetComponent<Rigidbody2D>();
+        _maxHealth = _health;
+        _rigidBody = this.GetComponent<Rigidbody2D>();
+        _renderer = this.GetComponent<SpriteRenderer>();
     }
 
     private void Update()
@@ -23,6 +28,7 @@ public class Enemy : MonoBehaviour
         {
             speed = 1.0f;
         }
+        UpdateHealthVisual();
     }
 
     private void FixedUpdate()
@@ -34,6 +40,7 @@ public class Enemy : MonoBehaviour
     private void Reset()
     {
         this.gameObject.SetActive(false);
+        _health = _maxHealth;
     }
 
     public void Kill()
@@ -53,6 +60,25 @@ public class Enemy : MonoBehaviour
         if (collision.gameObject.tag == "Wall" || collision.gameObject.tag == "NecroCat" || collision.gameObject.tag == "Enemy")
         {
             _rigidBody.velocity = Vector3.zero;
+        }
+    }
+
+    private void UpdateHealthVisual()
+    {
+        Color color = _renderer.color;
+        //color.r = (1f - (_health/_maxHealth));
+        float gradient = (_health / _maxHealth);
+        color.g = gradient;
+        color.b = gradient;
+        _renderer.color = color;
+    }
+
+    public void Damage(float damage)
+    {
+        _health -= damage;
+        if(_health < 0f)
+        {
+            Kill();
         }
     }
 }
