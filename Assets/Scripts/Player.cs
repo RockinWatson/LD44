@@ -21,6 +21,7 @@ public class Player : MonoBehaviour {
     public void TakeDmg() {
         _health -= 1500f;
     }
+    private float _score = 0f;
 
     [SerializeField]
     private float _elementZeroCost;
@@ -35,7 +36,6 @@ public class Player : MonoBehaviour {
 
     [SerializeField]
     private TextMesh _scoreTextMesh;
-    private int _score;
 
     [SerializeField]
     private float _harvestRadius = 3f;
@@ -47,13 +47,11 @@ public class Player : MonoBehaviour {
         _player = this;
 
         _health = _healthStart;
-        _score = 0;
     }
 
     private void Update()
     {
         UpdateInput();
-        UpdateScore();
     }
 
     private void UpdateInput()
@@ -94,11 +92,11 @@ public class Player : MonoBehaviour {
         }
     }
 
-    private void OnGUI()
-    {
-        Rect rect = new Rect(Vector2.zero, new Vector2(200f, 50f));
-        GUI.TextArea(rect, _health + " / " + _healthMax);
-    }
+    //private void OnGUI()
+    //{
+    //    Rect rect = new Rect(Vector2.zero, new Vector2(200f, 50f));
+    //    GUI.TextArea(rect, _health + " / " + _healthMax);
+    //}
 
     private void Summon(int index)
     {
@@ -111,30 +109,27 @@ public class Player : MonoBehaviour {
         {
             case 0:
                 _health -= _elementZeroCost;
-                _score += (int)_elementZeroCost;
+                _score += _elementZeroCost;
                 break;
             case 1:
                 _health -= _elementOneCost;
-                _score += (int)_elementOneCost;
+                _score += _elementOneCost;
                 break;
             case 2:
                 _health -= _elementTwoCost;
-                _score += (int)_elementTwoCost;
+                _score += _elementTwoCost;
                 break;
             case 3:
                 _health -= _elementThreeCost;
-                _score += (int)_elementThreeCost;
+                _score += _elementThreeCost;
                 break;
             case 4:
                 _health -= _elementFourCost;
-                _score += (int)_elementFourCost;
+                _score += _elementFourCost;
                 break;
             default:
                 throw new System.Exception("Player Summon Index out of Range!!!!!!");
         }
-    }
-
-    private void UpdateScore() {
-        _scoreTextMesh.text = _score.ToString();
+        _scoreTextMesh.text = "" + _score;
     }
 }

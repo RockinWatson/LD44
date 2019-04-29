@@ -198,6 +198,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abd31b84061b54e72a600f443e1d3d58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _deathFX: {fileID: 1685993043233582, guid: 4264f07b4da1144dfb67b4f23f0f1671, type: 2}
   _lifetime: 10
   _healthCost: 10
   _FX: {fileID: 1685993043233582, guid: 3004f323e18c74df1905ce9d274b7cdd, type: 2}
