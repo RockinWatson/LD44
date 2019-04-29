@@ -1,0 +1,997 @@
+fileFormatVersion: 2
+guid: 9f60d97bebba6dd42949a2a24149208c
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: cathat
+    21300002: hat1_000
+    21300004: hat1_001
+    21300006: hat1_002
+    21300008: hat1_003
+    21300010: hat1_004
+    21300012: hat1_005
+    21300014: hat1_006
+    21300016: hat1_007
+    21300018: hat1_008
+    21300020: hat1_009
+    21300022: hat1_010
+    21300024: hat1_011
+    21300026: hat1_012
+    21300028: hat1_013
+    21300030: hat1_014
+    21300032: Satr2_000
+    21300034: Satr2_001
+    21300036: Satr2_002
+    21300038: Satr2_003
+    21300040: Satr2_004
+    21300042: Satr2_005
+    21300044: Satr2_006
+    21300046: Satr2_007
+    21300048: Satr2_008
+    21300050: Satr2_009
+    21300052: Satr2_010
+    21300054: Satr2_011
+    21300056: Satr2_012
+    21300058: Satr2_013
+    21300060: Satr2_014
+    21300062: Star1_000
+    21300064: Star1_001
+    21300066: Star1_002
+    21300068: Star1_003
+    21300070: Star1_004
+    21300072: Star1_005
+    21300074: Star1_006
+    21300076: Star1_007
+    21300078: Star1_008
+    21300080: Star1_009
+    21300082: Star1_010
+    21300084: Star1_011
+    21300086: Star1_012
+    21300088: Star1_013
+    21300090: Star1_014
+    21300092: star3_000
+    21300094: star3_001
+    21300096: star3_002
+    21300098: star3_003
+    21300100: star3_004
+    21300102: star3_005
+    21300104: star3_006
+    21300106: star3_007
+    21300108: star3_008
+    21300110: star3_009
+    21300112: star3_010
+    21300114: star3_011
+    21300116: star3_012
+    21300118: star3_013
+    21300120: star3_014
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hat1_000
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2252
+        width: 1223
+        height: 1843
+      alignment: 9
+      pivot: {x: 0.49427637, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hat1_001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 522
+        width: 1224
+        height: 1728
+      alignment: 9
+      pivot: {x: 0.49468955, y: 0.5332755}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hat1_002
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 2484
+        width: 1229
+        height: 1611
+      alignment: 9
+      pivot: {x: 0.49267697, y: 0.572005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hat1_003
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 759
+        width: 1229
+        height: 1491
+      alignment: 9
+      pivot: {x: 0.49267697, y: 0.6180416}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hat1_004
+      rect:
+        serializedVersion: 2
+        x: 2457
+        y: 2683
+        width: 1229
+        height: 1412
+      alignment: 9
+      pivot: {x: 0.49267697, y: 0.6526204}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hat1_005
+      rect:
+        serializedVersion: 2
+        x: 2458
+        y: 1271
+        width: 1224
+        height: 1410
+      alignment: 9
+      pivot: {x: 0.49468955, y: 0.6535461}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hat1_006
+      rect:
+        serializedVersion: 2
+        x: 3684
+        y: 1271
+        width: 1224
+        height: 1410
+      alignment: 9
+      pivot: {x: 0.49468955, y: 0.6535461}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hat1_007
+      rect:
+        serializedVersion: 2
+        x: 2458
+        y: 20
+        width: 1224
+        height: 1249
+      alignment: 9
+      pivot: {x: 0.49632353, y: 0.6609287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hat1_008
+      rect:
+        serializedVersion: 2
+        x: 3684
+        y: 201
+        width: 1224
+        height: 1068
+      alignment: 9
+      pivot: {x: 0.49795753, y: 0.67181647}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hat1_009
+      rect:
+        serializedVersion: 2
+        x: 3688
+        y: 3209
+        width: 1224
+        height: 886
+      alignment: 9
+      pivot: {x: 0.4995915, y: 0.6856659}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hat1_010
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 52
+        width: 1229
+        height: 705
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7070922}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hat1_011
+      rect:
+        serializedVersion: 2
+        x: 4914
+        y: 2709
+        width: 1229
+        height: 692
+      alignment: 9
+      pivot: {x: 0.49755898, y: 0.7015896}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hat1_012
+      rect:
+        serializedVersion: 2
+        x: 6199
+        y: 3403
+        width: 1242
+        height: 692
+      alignment: 9
+      pivot: {x: 0.48913044, y: 0.7015896}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hat1_013
+      rect:
+        serializedVersion: 2
+        x: 4914
+        y: 3403
+        width: 1283
+        height: 692
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7015896}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hat1_014
+      rect:
+        serializedVersion: 2
+        x: 4914
+        y: 3403
+        width: 1283
+        height: 692
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7015896}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Satr2_000
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 2289
+        width: 29
+        height: 35
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.45714286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Satr2_001
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 258
+        width: 34
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.46666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Satr2_002
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 340
+        width: 32
+        height: 25
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Satr2_003
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 402
+        width: 32
+        height: 26
+      alignment: 9
+      pivot: {x: 0.4375, y: 0.53846157}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Satr2_004
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 2328
+        width: 34
+        height: 34
+      alignment: 9
+      pivot: {x: 0.47058824, y: 0.5882353}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Satr2_005
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 422
+        width: 29
+        height: 31
+      alignment: 9
+      pivot: {x: 0.44827586, y: 0.516129}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Satr2_006
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 2402
+        width: 30
+        height: 38
+      alignment: 9
+      pivot: {x: 0.53333336, y: 0.5263158}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Satr2_007
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 2364
+        width: 29
+        height: 36
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.5555556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Satr2_008
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 2366
+        width: 31
+        height: 34
+      alignment: 9
+      pivot: {x: 0.516129, y: 0.5588235}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Satr2_009
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 494
+        width: 33
+        height: 26
+      alignment: 9
+      pivot: {x: 0.4848485, y: 0.53846157}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Satr2_010
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 367
+        width: 33
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5151515, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Satr2_011
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 435
+        width: 32
+        height: 26
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Satr2_012
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 389
+        width: 29
+        height: 31
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.516129}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Satr2_013
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 2326
+        width: 24
+        height: 36
+      alignment: 9
+      pivot: {x: 0.45833334, y: 0.5277778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Satr2_014
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 2442
+        width: 31
+        height: 40
+      alignment: 9
+      pivot: {x: 0.38709676, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Star1_000
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 469
+        width: 26
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5217391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Star1_001
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 492
+        width: 24
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.53571427}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Star1_002
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 424
+        width: 27
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5185185, y: 0.55172414}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Star1_003
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 323
+        width: 28
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.516129}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Star1_004
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 463
+        width: 25
+        height: 27
+      alignment: 9
+      pivot: {x: 0.48, y: 0.4814815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Star1_005
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 440
+        width: 28
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45833334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Star1_006
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 227
+        width: 31
+        height: 29
+      alignment: 9
+      pivot: {x: 0.516129, y: 0.4827586}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Star1_007
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 291
+        width: 31
+        height: 30
+      alignment: 9
+      pivot: {x: 0.516129, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Star1_008
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 430
+        width: 28
+        height: 27
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.5185185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Star1_009
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 290
+        width: 27
+        height: 31
+      alignment: 9
+      pivot: {x: 0.44444445, y: 0.48387095}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Star1_010
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 292
+        width: 28
+        height: 30
+      alignment: 9
+      pivot: {x: 0.4642857, y: 0.46666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Star1_011
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 257
+        width: 26
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.516129}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Star1_012
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 494
+        width: 30
+        height: 26
+      alignment: 9
+      pivot: {x: 0.46666667, y: 0.5769231}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Star1_013
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 459
+        width: 31
+        height: 28
+      alignment: 9
+      pivot: {x: 0.48387095, y: 0.53571427}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Star1_014
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 324
+        width: 31
+        height: 30
+      alignment: 9
+      pivot: {x: 0.48387095, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: star3_000
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 455
+        width: 33
+        height: 31
+      alignment: 9
+      pivot: {x: 0.45454547, y: 0.5967742}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: star3_001
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 466
+        width: 32
+        height: 26
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.44230768}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: star3_002
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 375
+        width: 30
+        height: 25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.46}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: star3_003
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 2450
+        width: 31
+        height: 32
+      alignment: 9
+      pivot: {x: 0.48387095, y: 0.515625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: star3_004
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 2252
+        width: 25
+        height: 35
+      alignment: 9
+      pivot: {x: 0.48, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: star3_005
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 2406
+        width: 26
+        height: 34
+      alignment: 9
+      pivot: {x: 0.46153846, y: 0.5441176}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: star3_006
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 488
+        width: 30
+        height: 32
+      alignment: 9
+      pivot: {x: 0.46666667, y: 0.484375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: star3_007
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 489
+        width: 31
+        height: 31
+      alignment: 9
+      pivot: {x: 0.48387095, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: star3_008
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 409
+        width: 32
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: star3_009
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 192
+        width: 35
+        height: 30
+      alignment: 9
+      pivot: {x: 0.4857143, y: 0.51666665}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: star3_010
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 395
+        width: 30
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.537037}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: star3_011
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 2413
+        width: 27
+        height: 33
+      alignment: 9
+      pivot: {x: 0.4814815, y: 0.46969697}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: star3_012
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 2448
+        width: 26
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5769231, y: 0.45588234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: star3_013
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 224
+        width: 26
+        height: 31
+      alignment: 9
+      pivot: {x: 0.53846157, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: star3_014
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 356
+        width: 29
+        height: 31
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

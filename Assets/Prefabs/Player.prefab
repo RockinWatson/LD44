@@ -144,6 +144,8 @@ MonoBehaviour:
   _axisBias: {x: 1, y: 0.45}
   _slideTrail: {fileID: 1920566179337434, guid: 16833f5429448418ea9011e3f6bf903d,
     type: 2}
+  _playerRun: {fileID: 9100000, guid: e1534afebb0588b4d801c5a398f79d34, type: 2}
+  _playerIdle: {fileID: 9100000, guid: 9d9420b4bc7aab44682092a161b42a2a, type: 2}
 --- !u!212 &212039989334920116
 SpriteRenderer:
   m_ObjectHideFlags: 1

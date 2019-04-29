@@ -1,0 +1,2797 @@
+fileFormatVersion: 2
+guid: 35ce3d808f111f94bbf8511017a2e4a1
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Sprites1
+    21300002: cat1_000
+    21300004: cat1_001
+    21300006: cat1_002
+    21300008: cat1_003
+    21300010: cat1_004
+    21300012: cat1_005
+    21300014: cat1_006
+    21300016: cat1_007
+    21300018: cat1_008
+    21300020: cat1_009
+    21300022: cat1_010
+    21300024: cat1_011
+    21300026: cat1_012
+    21300028: cat1_013
+    21300030: cat1_014
+    21300032: cat2_000
+    21300034: cat2_001
+    21300036: cat2_002
+    21300038: cat2_003
+    21300040: cat2_004
+    21300042: cat2_005
+    21300044: cat2_006
+    21300046: cat2_007
+    21300048: cat2_008
+    21300050: cat2_009
+    21300052: cat2_010
+    21300054: cat2_011
+    21300056: cat2_012
+    21300058: cat2_013
+    21300060: cat2_014
+    21300062: mars_000
+    21300064: mars_001
+    21300066: mars_002
+    21300068: mars_003
+    21300070: mars_004
+    21300072: mars_005
+    21300074: mars_006
+    21300076: mars_007
+    21300078: mars_008
+    21300080: mars_009
+    21300082: mars_010
+    21300084: mars_011
+    21300086: mars_012
+    21300088: mars_013
+    21300090: mars_014
+    21300092: Satr2_000
+    21300094: Satr2_001
+    21300096: Satr2_002
+    21300098: Satr2_003
+    21300100: Satr2_004
+    21300102: Satr2_005
+    21300104: Satr2_006
+    21300106: Satr2_007
+    21300108: Satr2_008
+    21300110: Satr2_009
+    21300112: Satr2_010
+    21300114: Satr2_011
+    21300116: Satr2_012
+    21300118: Satr2_013
+    21300120: Satr2_014
+    21300122: Star1_000
+    21300124: Star1_001
+    21300126: Star1_002
+    21300128: Star1_003
+    21300130: Star1_004
+    21300132: Star1_005
+    21300134: Star1_006
+    21300136: Star1_007
+    21300138: Star1_008
+    21300140: Star1_009
+    21300142: Star1_010
+    21300144: Star1_011
+    21300146: Star1_012
+    21300148: Star1_013
+    21300150: Star1_014
+    21300152: star3_000
+    21300154: star3_001
+    21300156: star3_002
+    21300158: star3_003
+    21300160: star3_004
+    21300162: star3_005
+    21300164: star3_006
+    21300166: star3_007
+    21300168: star3_008
+    21300170: star3_009
+    21300172: star3_010
+    21300174: star3_011
+    21300176: star3_012
+    21300178: star3_013
+    21300180: star3_014
+    21300182: weird1_000
+    21300184: weird1_001
+    21300186: weird1_002
+    21300188: weird1_003
+    21300190: weird1_004
+    21300192: weird1_005
+    21300194: weird1_006
+    21300196: weird1_007
+    21300198: weird1_008
+    21300200: weird1_009
+    21300202: weird1_010
+    21300204: weird1_011
+    21300206: weird1_012
+    21300208: weird1_013
+    21300210: weird1_014
+    21300212: weird2_000
+    21300214: weird2_001
+    21300216: weird2_002
+    21300218: weird2_003
+    21300220: weird2_004
+    21300222: weird2_005
+    21300224: weird2_006
+    21300226: weird2_007
+    21300228: weird2_008
+    21300230: weird2_009
+    21300232: weird2_010
+    21300234: weird2_011
+    21300236: weird2_012
+    21300238: weird2_013
+    21300240: weird2_014
+    21300242: weird3_000
+    21300244: weird3_001
+    21300246: weird3_002
+    21300248: weird3_003
+    21300250: weird3_004
+    21300252: weird3_005
+    21300254: weird3_006
+    21300256: weird3_007
+    21300258: weird3_008
+    21300260: weird3_009
+    21300262: weird3_010
+    21300264: weird3_011
+    21300266: weird3_012
+    21300268: weird3_013
+    21300270: weird3_014
+    21300272: weird4_000
+    21300274: weird4_001
+    21300276: weird4_002
+    21300278: weird4_003
+    21300280: weird4_004
+    21300282: weird4_005
+    21300284: weird4_006
+    21300286: weird4_007
+    21300288: weird4_008
+    21300290: weird4_009
+    21300292: weird4_010
+    21300294: weird4_011
+    21300296: weird4_012
+    21300298: weird4_013
+    21300300: weird4_014
+    21300302: weird5_000
+    21300304: weird5_001
+    21300306: weird5_002
+    21300308: weird5_003
+    21300310: weird5_004
+    21300312: weird5_005
+    21300314: weird5_006
+    21300316: weird5_007
+    21300318: weird5_008
+    21300320: weird5_009
+    21300322: weird5_010
+    21300324: weird5_011
+    21300326: weird5_012
+    21300328: weird5_013
+    21300330: weird5_014
+    21300332: weird6_000
+    21300334: weird6_001
+    21300336: weird6_002
+    21300338: weird6_003
+    21300340: weird6_004
+    21300342: weird6_005
+    21300344: weird6_006
+    21300346: weird6_007
+    21300348: weird6_008
+    21300350: weird6_009
+    21300352: weird6_010
+    21300354: weird6_011
+    21300356: weird6_012
+    21300358: weird6_013
+    21300360: weird6_014
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cat1_000
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3735
+        width: 468
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: cat1_001
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 3735
+        width: 468
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: cat1_002
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 3735
+        width: 468
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: cat1_003
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 3735
+        width: 468
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: cat1_004
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 2287
+        width: 465
+        height: 360
+      alignment: 9
+      pivot: {x: 0.49892473, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: cat1_005
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 2292
+        width: 466
+        height: 357
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5014006}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: cat1_006
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 1566
+        width: 463
+        height: 358
+      alignment: 9
+      pivot: {x: 0.5010799, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: cat1_007
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 1207
+        width: 456
+        height: 357
+      alignment: 9
+      pivot: {x: 0.502193, y: 0.49859944}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: cat1_008
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1566
+        width: 462
+        height: 359
+      alignment: 9
+      pivot: {x: 0.4978355, y: 0.5013928}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: cat1_009
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1927
+        width: 464
+        height: 358
+      alignment: 9
+      pivot: {x: 0.49784482, y: 0.49720672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: cat1_010
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 3375
+        width: 468
+        height: 358
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5027933}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: cat1_011
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3373
+        width: 468
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: cat1_012
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 3373
+        width: 467
+        height: 360
+      alignment: 9
+      pivot: {x: 0.5010707, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: cat1_013
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 3013
+        width: 467
+        height: 360
+      alignment: 9
+      pivot: {x: 0.5010707, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: cat1_014
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 3373
+        width: 468
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: cat2_000
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 3011
+        width: 467
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: cat2_001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3011
+        width: 467
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: cat2_002
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 3011
+        width: 467
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: cat2_003
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2287
+        width: 465
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: cat2_004
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 1931
+        width: 465
+        height: 359
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5013928}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: cat2_005
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 2287
+        width: 465
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: cat2_006
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 1208
+        width: 458
+        height: 359
+      alignment: 9
+      pivot: {x: 0.5010917, y: 0.5013928}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: cat2_007
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 1926
+        width: 465
+        height: 359
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49860725}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: cat2_008
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 1927
+        width: 464
+        height: 358
+      alignment: 9
+      pivot: {x: 0.5032328, y: 0.5027933}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: cat2_009
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1566
+        width: 461
+        height: 359
+      alignment: 9
+      pivot: {x: 0.5043384, y: 0.49860725}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: cat2_010
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2649
+        width: 466
+        height: 360
+      alignment: 9
+      pivot: {x: 0.49892703, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: cat2_011
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 1569
+        width: 463
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: cat2_012
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 2649
+        width: 466
+        height: 360
+      alignment: 9
+      pivot: {x: 0.49892703, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: cat2_013
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 2651
+        width: 467
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: cat2_014
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 2649
+        width: 467
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mars_000
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 409
+        width: 440
+        height: 359
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5041783}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mars_001
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 845
+        width: 440
+        height: 360
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50277776}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mars_002
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 845
+        width: 440
+        height: 361
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50138503}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mars_003
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 845
+        width: 440
+        height: 361
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50138503}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mars_004
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1202
+        width: 440
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mars_005
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1202
+        width: 440
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mars_006
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 1202
+        width: 440
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mars_007
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 1202
+        width: 440
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mars_008
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 1202
+        width: 440
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mars_009
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 1202
+        width: 440
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mars_010
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1202
+        width: 440
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mars_011
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1202
+        width: 440
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mars_012
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 845
+        width: 440
+        height: 361
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50138503}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mars_013
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 845
+        width: 440
+        height: 361
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50138503}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mars_014
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 845
+        width: 440
+        height: 360
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50277776}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Satr2_000
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 6
+        width: 29
+        height: 35
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.45714286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Satr2_001
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 1466
+        width: 34
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.46666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Satr2_002
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 1266
+        width: 32
+        height: 25
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Satr2_003
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 1349
+        width: 32
+        height: 26
+      alignment: 9
+      pivot: {x: 0.4375, y: 0.53846157}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Satr2_004
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 1498
+        width: 34
+        height: 34
+      alignment: 9
+      pivot: {x: 0.47058824, y: 0.5882353}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Satr2_005
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 10
+        width: 29
+        height: 31
+      alignment: 9
+      pivot: {x: 0.44827586, y: 0.516129}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Satr2_006
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 930
+        width: 30
+        height: 38
+      alignment: 9
+      pivot: {x: 0.53333336, y: 0.5263158}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Satr2_007
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 5
+        width: 29
+        height: 36
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.5555556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Satr2_008
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 1162
+        width: 31
+        height: 34
+      alignment: 9
+      pivot: {x: 0.516129, y: 0.5588235}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Satr2_009
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 1405
+        width: 33
+        height: 26
+      alignment: 9
+      pivot: {x: 0.4848485, y: 0.53846157}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Satr2_010
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 1377
+        width: 33
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5151515, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Satr2_011
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 1321
+        width: 32
+        height: 26
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Satr2_012
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 10
+        width: 29
+        height: 31
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.516129}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Satr2_013
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 941
+        width: 24
+        height: 36
+      alignment: 9
+      pivot: {x: 0.45833334, y: 0.5277778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Satr2_014
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 1198
+        width: 31
+        height: 40
+      alignment: 9
+      pivot: {x: 0.38709676, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Star1_000
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1045
+        width: 26
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5217391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Star1_001
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 911
+        width: 24
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.53571427}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Star1_002
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 1048
+        width: 27
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5185185, y: 0.55172414}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Star1_003
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 10
+        width: 28
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.516129}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Star1_004
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 979
+        width: 25
+        height: 27
+      alignment: 9
+      pivot: {x: 0.48, y: 0.4814815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Star1_005
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 20
+        width: 28
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45833334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Star1_006
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 1000
+        width: 31
+        height: 29
+      alignment: 9
+      pivot: {x: 0.516129, y: 0.4827586}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Star1_007
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 1063
+        width: 31
+        height: 30
+      alignment: 9
+      pivot: {x: 0.516129, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Star1_008
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 44
+        width: 28
+        height: 27
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.5185185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Star1_009
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 1079
+        width: 27
+        height: 31
+      alignment: 9
+      pivot: {x: 0.44444445, y: 0.48387095}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Star1_010
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 12
+        width: 28
+        height: 30
+      alignment: 9
+      pivot: {x: 0.4642857, y: 0.46666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Star1_011
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1103
+        width: 26
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.516129}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Star1_012
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 839
+        width: 30
+        height: 26
+      alignment: 9
+      pivot: {x: 0.46666667, y: 0.5769231}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Star1_013
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 970
+        width: 31
+        height: 28
+      alignment: 9
+      pivot: {x: 0.48387095, y: 0.53571427}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Star1_014
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 1031
+        width: 31
+        height: 30
+      alignment: 9
+      pivot: {x: 0.48387095, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: star3_000
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 1433
+        width: 33
+        height: 31
+      alignment: 9
+      pivot: {x: 0.45454547, y: 0.5967742}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: star3_001
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 1293
+        width: 32
+        height: 26
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.44230768}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: star3_002
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 46
+        width: 30
+        height: 25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.46}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: star3_003
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 1128
+        width: 31
+        height: 32
+      alignment: 9
+      pivot: {x: 0.48387095, y: 0.515625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: star3_004
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1008
+        width: 25
+        height: 35
+      alignment: 9
+      pivot: {x: 0.48, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: star3_005
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1172
+        width: 26
+        height: 34
+      alignment: 9
+      pivot: {x: 0.46153846, y: 0.5441176}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: star3_006
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 896
+        width: 30
+        height: 32
+      alignment: 9
+      pivot: {x: 0.46666667, y: 0.484375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: star3_007
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 1095
+        width: 31
+        height: 31
+      alignment: 9
+      pivot: {x: 0.48387095, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: star3_008
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 1240
+        width: 32
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: star3_009
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 1534
+        width: 35
+        height: 30
+      alignment: 9
+      pivot: {x: 0.4857143, y: 0.51666665}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: star3_010
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 867
+        width: 30
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.537037}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: star3_011
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 1112
+        width: 27
+        height: 33
+      alignment: 9
+      pivot: {x: 0.4814815, y: 0.46969697}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: star3_012
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1136
+        width: 26
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5769231, y: 0.45588234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: star3_013
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1070
+        width: 26
+        height: 31
+      alignment: 9
+      pivot: {x: 0.53846157, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: star3_014
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 10
+        width: 29
+        height: 31
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird1_000
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 914
+        width: 139
+        height: 142
+      alignment: 9
+      pivot: {x: 0.49280575, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird1_001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 770
+        width: 139
+        height: 142
+      alignment: 9
+      pivot: {x: 0.49280575, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird1_002
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 772
+        width: 138
+        height: 140
+      alignment: 9
+      pivot: {x: 0.48913044, y: 0.50714284}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird1_003
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1062
+        width: 136
+        height: 138
+      alignment: 9
+      pivot: {x: 0.48161766, y: 0.5072464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird1_004
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 922
+        width: 133
+        height: 138
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49275362}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird1_005
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 783
+        width: 134
+        height: 137
+      alignment: 9
+      pivot: {x: 0.48134327, y: 0.4890511}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird1_006
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 773
+        width: 136
+        height: 139
+      alignment: 9
+      pivot: {x: 0.48161766, y: 0.48920864}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird1_007
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 918
+        width: 134
+        height: 139
+      alignment: 9
+      pivot: {x: 0.50373137, y: 0.4964029}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird1_008
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 1059
+        width: 134
+        height: 141
+      alignment: 9
+      pivot: {x: 0.50373137, y: 0.4964539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird1_009
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1058
+        width: 137
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird1_010
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 557
+        width: 140
+        height: 142
+      alignment: 9
+      pivot: {x: 0.50357145, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird1_011
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 914
+        width: 139
+        height: 142
+      alignment: 9
+      pivot: {x: 0.5071942, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird1_012
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 12
+        width: 140
+        height: 142
+      alignment: 9
+      pivot: {x: 0.50357145, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird1_013
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 701
+        width: 141
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird1_014
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1058
+        width: 140
+        height: 142
+      alignment: 9
+      pivot: {x: 0.49642858, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird2_000
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 452
+        width: 151
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird2_001
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 452
+        width: 151
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird2_002
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 611
+        width: 151
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird2_003
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 247
+        width: 151
+        height: 151
+      alignment: 9
+      pivot: {x: 0.5, y: 0.51986754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird2_004
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 156
+        width: 151
+        height: 146
+      alignment: 9
+      pivot: {x: 0.5, y: 0.510274}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird2_005
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 97
+        width: 151
+        height: 148
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5101351}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird2_006
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 94
+        width: 151
+        height: 151
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5066225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird2_007
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 409
+        width: 151
+        height: 153
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5130719}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird2_008
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 455
+        width: 151
+        height: 155
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5064516}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird2_009
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 409
+        width: 151
+        height: 153
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5130719}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird2_010
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 400
+        width: 151
+        height: 155
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5064516}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird2_011
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 612
+        width: 151
+        height: 156
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5032051}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird2_012
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 612
+        width: 151
+        height: 156
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5032051}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird2_013
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 293
+        width: 151
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird2_014
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 452
+        width: 151
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird3_000
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 770
+        width: 188
+        height: 375
+      alignment: 9
+      pivot: {x: 0.49468085, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird3_001
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 16
+        width: 180
+        height: 375
+      alignment: 9
+      pivot: {x: 0.47777778, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird3_002
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 16
+        width: 180
+        height: 375
+      alignment: 9
+      pivot: {x: 0.49444443, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird3_003
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 393
+        width: 185
+        height: 375
+      alignment: 9
+      pivot: {x: 0.4972973, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird3_004
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 393
+        width: 185
+        height: 375
+      alignment: 9
+      pivot: {x: 0.5081081, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird3_005
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 1524
+        width: 183
+        height: 375
+      alignment: 9
+      pivot: {x: 0.5191257, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird3_006
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 16
+        width: 183
+        height: 375
+      alignment: 9
+      pivot: {x: 0.5191257, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird3_007
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 1524
+        width: 183
+        height: 375
+      alignment: 9
+      pivot: {x: 0.5191257, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird3_008
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 393
+        width: 185
+        height: 375
+      alignment: 9
+      pivot: {x: 0.5135135, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird3_009
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 393
+        width: 185
+        height: 375
+      alignment: 9
+      pivot: {x: 0.5027027, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird3_010
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 393
+        width: 185
+        height: 375
+      alignment: 9
+      pivot: {x: 0.4918919, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird3_011
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 393
+        width: 185
+        height: 375
+      alignment: 9
+      pivot: {x: 0.4864865, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird3_012
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 16
+        width: 180
+        height: 375
+      alignment: 9
+      pivot: {x: 0.4888889, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird3_013
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 16
+        width: 180
+        height: 375
+      alignment: 9
+      pivot: {x: 0.47777778, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird3_014
+      rect:
+        serializedVersion: 2
+        x: 1846
+        y: 1147
+        width: 190
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird4_000
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 729
+        width: 251
+        height: 153
+      alignment: 9
+      pivot: {x: 0.49800798, y: 0.4640523}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird4_001
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 93
+        width: 249
+        height: 157
+      alignment: 9
+      pivot: {x: 0.49799198, y: 0.477707}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird4_002
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 304
+        width: 248
+        height: 149
+      alignment: 9
+      pivot: {x: 0.50403225, y: 0.4966443}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird4_003
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 611
+        width: 248
+        height: 157
+      alignment: 9
+      pivot: {x: 0.5080645, y: 0.49044585}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird4_004
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 247
+        width: 245
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5020408, y: 0.4875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird4_005
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 565
+        width: 247
+        height: 162
+      alignment: 9
+      pivot: {x: 0.48987854, y: 0.49382716}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird4_006
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 73
+        width: 246
+        height: 163
+      alignment: 9
+      pivot: {x: 0.49186993, y: 0.5030675}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird4_007
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 244
+        width: 241
+        height: 163
+      alignment: 9
+      pivot: {x: 0.4979253, y: 0.5030675}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird4_008
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 81
+        width: 250
+        height: 161
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50931674}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird4_009
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 564
+        width: 246
+        height: 163
+      alignment: 9
+      pivot: {x: 0.49186993, y: 0.4969325}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird4_010
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 85
+        width: 244
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird4_011
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1041
+        width: 252
+        height: 159
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49056605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird4_012
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 252
+        width: 248
+        height: 158
+      alignment: 9
+      pivot: {x: 0.50403225, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird4_013
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 884
+        width: 252
+        height: 155
+      alignment: 9
+      pivot: {x: 0.5, y: 0.47096774}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird4_014
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 412
+        width: 249
+        height: 151
+      alignment: 9
+      pivot: {x: 0.502008, y: 0.47682118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird5_000
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 3914
+        width: 162
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird5_001
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 3731
+        width: 162
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird5_002
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 3548
+        width: 162
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird5_003
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 3365
+        width: 162
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird5_004
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 238
+        width: 158
+        height: 169
+      alignment: 9
+      pivot: {x: 0.48734176, y: 0.5118343}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird5_005
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 3182
+        width: 162
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird5_006
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 2999
+        width: 162
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird5_007
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 2816
+        width: 162
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird5_008
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 2633
+        width: 162
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird5_009
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 2450
+        width: 162
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird5_010
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 2267
+        width: 162
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird5_011
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 2084
+        width: 162
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird5_012
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 1901
+        width: 162
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird5_013
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 226
+        width: 162
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird5_014
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 43
+        width: 162
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird6_000
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 23
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird6_001
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 23
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird6_002
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 23
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird6_003
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 23
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird6_004
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 31
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird6_005
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 31
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird6_006
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 46
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5, y: 0.46666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird6_007
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 31
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird6_008
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 31
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird6_009
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 31
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird6_010
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 35
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird6_011
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 35
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird6_012
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 35
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird6_013
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 35
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: weird6_014
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 35
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

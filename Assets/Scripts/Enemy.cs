@@ -8,10 +8,21 @@ public class Enemy : MonoBehaviour
     [SerializeField]
     private float speed = 1.0f;
 
+    private Rigidbody2D _rigidBody;
+
     //TODO: Enemy Reset
+
+    private void Start()
+    {
+        _rigidBody = GetComponent<Rigidbody2D>();
+    }
 
     private void Update()
     {
+        if (!gameObject.activeInHierarchy)
+        {
+            speed = 1.0f;
+        }
     }
 
     private void FixedUpdate()
@@ -35,5 +46,13 @@ public class Enemy : MonoBehaviour
     private void OnBeameInvisible()
     {
         Reset();
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Wall" || collision.gameObject.tag == "NecroCat" || collision.gameObject.tag == "Enemy")
+        {
+            _rigidBody.velocity = Vector3.zero;
+        }
     }
 }
