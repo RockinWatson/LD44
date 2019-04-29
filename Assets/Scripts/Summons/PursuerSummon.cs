@@ -7,6 +7,10 @@ public class PursuerSummon : Summon
     [SerializeField]
     private float _speed = 5f;
 
+    [SerializeField]
+    private float _killPause = 1f;
+    protected void KillPause() { Pause(_killPause); }
+
     private Enemy _target = null;
     public Enemy GetTarget() { return _target; }
 
@@ -15,8 +19,16 @@ public class PursuerSummon : Summon
 
     private Vector3 _targetVecloity;
 
+    private float _pauseTimer = 0f;
+    protected void Pause(float time) { _pauseTimer = time; }
+
     private void FixedUpdate()
     {
+        if(_pauseTimer > 0f)
+        {
+            _pauseTimer -= Time.fixedDeltaTime;
+            return;
+        }
         UpdateMovement();
     }
 
