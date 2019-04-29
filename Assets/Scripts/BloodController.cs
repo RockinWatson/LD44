@@ -11,7 +11,7 @@ public class BloodController : MonoBehaviour {
     void Start()
     {
         float scaleToZero = Player.Get().GetHealth() / _bloodLevelMaxForVisual * _bloodLevelMaxPosX;
-        _bloodLevelVisualZeroPos = BloodLevel.transform.position - (Vector3.up * scaleToZero);
+        _bloodLevelVisualZeroPos = BloodLevel.transform.position - (Vector3.left * scaleToZero);
     }
 
     // Update is called once per frame
@@ -23,6 +23,6 @@ public class BloodController : MonoBehaviour {
     private void UpdateBloodLevelVisual()
     {
         float bloodScale = Mathf.Min(Player.Get().GetHealth(), _bloodLevelMaxForVisual) / _bloodLevelMaxForVisual * _bloodLevelMaxPosX;
-        BloodLevel.transform.position = _bloodLevelVisualZeroPos + (Vector3.up * bloodScale);
+        BloodLevel.transform.position = _bloodLevelVisualZeroPos + (Vector3.left * bloodScale);
     }
 }
