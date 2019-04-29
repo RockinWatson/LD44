@@ -8,7 +8,19 @@ public class Vacuum : PursuerSummon {
         if (collision.gameObject.tag == "Enemy")
         {
             Enemy enemy = collision.gameObject.GetComponent<Enemy>();
-            enemy.Kill();
+            //enemy.Kill();
+            enemy.Damage(2f);
+            KillPause();
+        }
+    }
+
+    public void Attack()
+    {
+        Enemy target = GetTarget();
+        if (!target || !target.gameObject.activeSelf) return;
+        if ((target.transform.position - this.transform.position).sqrMagnitude < 1f)
+        {
+            target.Damage(2f);
             KillPause();
         }
     }
