@@ -12,7 +12,7 @@ namespace Assets.Scripts
         public float CountDown;
 
         public Sprite[] enemySprites;
-        //public RuntimeAnimatorController[] enemyAnimations;
+        public RuntimeAnimatorController[] enemyAnimations;
 
         private List<GameObject> _objectsPool;
         private Transform _spawnerTrans;
@@ -77,8 +77,8 @@ namespace Assets.Scripts
 
             Sprite randSprite = enemySprites[getInt];
             sprRend.sprite = randSprite;
-            //RuntimeAnimatorController animationController = enemyAnimations[getInt];
-            //animator.runtimeAnimatorController = animationController;
+            RuntimeAnimatorController animationController = enemyAnimations[getInt];
+            animator.runtimeAnimatorController = animationController;
         }
     }
 }

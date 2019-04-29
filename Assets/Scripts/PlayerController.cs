@@ -24,9 +24,15 @@ public class PlayerController : MonoBehaviour {
     private Vector3 _velocity = Vector3.zero;
     private Vector3 _targetVelocity = Vector3.zero;
 
+    private float _scale;
+
+    private Animator _anim;
+
     private void Awake()
     {
+        _anim = GetComponent<Animator>();
         _rigidBody = GetComponent<Rigidbody2D>();
+        _scale = transform.localScale.x;
     }
 
     private void Update()
@@ -37,12 +43,22 @@ public class PlayerController : MonoBehaviour {
         _targetVelocity *= _runSpeed;
 
         UpdatePlayerInput();
+        FlipPlayer();
+
+        if (Mathf.Abs(_targetVelocity.x) > 0 || Mathf.Abs(_targetVelocity.y) > 0)
+        {
+            _anim.SetBool("isRunning", true);
+        }
+        else
+        {
+            _anim.SetBool("isRunning", false);
+        }
     }
 
     private void FixedUpdate()
     {
         _rigidBody.velocity = Vector3.SmoothDamp(_rigidBody.velocity, _targetVelocity, ref _velocity, _smoothing) * Time.fixedDeltaTime;
-        
+
         //if(_slideGo)
         //{
         //    Slide();
@@ -82,5 +98,16 @@ public class PlayerController : MonoBehaviour {
         SlideTrail trail = go.GetComponent<SlideTrail>(); // (SlideTrail)Instantiate(_slideTrail);
         trail.Initialize(this);
 
+    }
+
+    private void FlipPlayer() {
+        if (_targetVelocity.x <= 0)
+        {
+            transform.localScale = new Vector2(_scale, transform.localScale.y);
+        }
+        else
+        {
+            transform.localScale = new Vector2(-_scale, transform.localScale.y);
+        }
     }
 }
