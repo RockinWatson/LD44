@@ -91,11 +91,11 @@ public class SlideTrail : MonoBehaviour {
                 RaycastHit2D hit = _hits[i];
                 if (hit && hit.transform)
                 {
-                    Enemy enemy = hit.transform.GetComponent<Enemy>();
-                    if(enemy)
-                    {
-                        enemy.Kill();
-                    }
+                    //Enemy enemy = hit.transform.GetComponent<Enemy>();
+                    //if(enemy)
+                    //{
+                    //    enemy.Kill();
+                    //}
 
                     Corpse corpse = hit.transform.GetComponent<Corpse>();
                     if (corpse && !corpse.IsHarvested())
