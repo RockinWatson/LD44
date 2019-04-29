@@ -20,6 +20,17 @@ public class Player : MonoBehaviour {
     }
 
     [SerializeField]
+    private float _elementZeroCost;
+    [SerializeField]
+    private float _elementOneCost;
+    [SerializeField]
+    private float _elementTwoCost;
+    [SerializeField]
+    private float _elementThreeCost;
+    [SerializeField]
+    private float _elementFourCost;
+
+    [SerializeField]
     private float _harvestRadius = 3f;
 
     private RaycastHit2D[] _hits = new RaycastHit2D[10];
@@ -83,5 +94,29 @@ public class Player : MonoBehaviour {
     private void Summon(int index)
     {
         Instantiate(_summons[index], this.transform.position, Quaternion.identity);
+        CalculateLifeForSummons(index);
+    }
+
+    private void CalculateLifeForSummons(int index) {
+        switch (index)
+        {
+            case 0:
+                _health -= _elementZeroCost;
+                break;
+            case 1:
+                _health -= _elementOneCost;
+                break;
+            case 2:
+                _health -= _elementTwoCost;
+                break;
+            case 3:
+                _health -= _elementThreeCost;
+                break;
+            case 4:
+                _health -= _elementFourCost;
+                break;
+            default:
+                throw new System.Exception("Player Summon Index out of Range!!!!!!");
+        }
     }
 }

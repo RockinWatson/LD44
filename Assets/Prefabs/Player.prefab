@@ -126,6 +126,11 @@ MonoBehaviour:
   - {fileID: 1996504708546098, guid: b859acdde3ede46beae7cb15c7a42039, type: 2}
   _healthStart: 2000
   _healthMax: 9000
+  _elementZeroCost: 1000
+  _elementOneCost: 1500
+  _elementTwoCost: 2000
+  _elementThreeCost: 2500
+  _elementFourCost: 3500
   _harvestRadius: 1
 --- !u!114 &114968482367078298
 MonoBehaviour:
@@ -144,8 +149,6 @@ MonoBehaviour:
   _axisBias: {x: 1, y: 0.45}
   _slideTrail: {fileID: 1920566179337434, guid: 16833f5429448418ea9011e3f6bf903d,
     type: 2}
-  _playerRun: {fileID: 9100000, guid: e1534afebb0588b4d801c5a398f79d34, type: 2}
-  _playerIdle: {fileID: 9100000, guid: 9d9420b4bc7aab44682092a161b42a2a, type: 2}
 --- !u!212 &212039989334920116
 SpriteRenderer:
   m_ObjectHideFlags: 1
