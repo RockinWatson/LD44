@@ -7,6 +7,15 @@ public class DeathFX : MonoBehaviour {
     [SerializeField]
     private GameObject _corpse = null;
 
+    [SerializeField]
+    private float _animSpeed = 1f;
+
+    private void Awake()
+    {
+        Animator animator = this.GetComponent<Animator>();
+        animator.speed = _animSpeed;
+    }
+
     public void Corpse()
     {
         SpawnCorpse();
