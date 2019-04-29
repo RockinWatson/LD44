@@ -37,7 +37,7 @@ public class AudioController : MonoBehaviour {
         zombie = audio[7];
 
         audio[0].volume = .9f;
-        audio[1].volume = .5f;
+        audio[1].volume = .25f;
         audio[2].volume = .5f;
         audio[3].volume = .5f;
         audio[4].volume = .5f;
