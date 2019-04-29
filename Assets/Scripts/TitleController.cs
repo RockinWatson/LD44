@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class TitleController : MonoBehaviour {
 
-    private bool _select() { return (Input.GetKeyDown(KeyCode.Space)); }
+    private bool _select() { return (Input.GetKeyDown(KeyCode.Return)); }
     private bool isTitle;
     public AudioSource titleMusic;
     public AudioSource select;
