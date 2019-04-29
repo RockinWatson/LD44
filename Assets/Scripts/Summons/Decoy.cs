@@ -38,6 +38,9 @@ public class Decoy : Summon {
         }
 
         //@TODO: Setoff FX
+        Instantiate(_FX, this.transform.position, Quaternion.identity);
+
+        AudioController.explosion.Play();
 
         Destroy(this.gameObject);
     }
