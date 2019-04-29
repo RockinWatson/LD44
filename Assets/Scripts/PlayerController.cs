@@ -104,11 +104,11 @@ public class PlayerController : MonoBehaviour {
     }
 
     private void FlipPlayer() {
-        if (_targetVelocity.x <= 0)
+        if (_targetVelocity.x < 0)
         {
             transform.localScale = new Vector2(_scale, transform.localScale.y);
         }
-        else
+        if (_targetVelocity.x > 0)
         {
             transform.localScale = new Vector2(-_scale, transform.localScale.y);
         }
