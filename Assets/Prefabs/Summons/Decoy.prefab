@@ -200,6 +200,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _lifetime: 10
   _healthCost: 10
+  _FX: {fileID: 1685993043233582, guid: 3004f323e18c74df1905ce9d274b7cdd, type: 2}
+  _effectRadius: 2
 --- !u!212 &212994569074918642
 SpriteRenderer:
   m_ObjectHideFlags: 1
