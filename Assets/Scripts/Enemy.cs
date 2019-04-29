@@ -43,7 +43,7 @@ public class Enemy : MonoBehaviour
         Reset();
     }
 
-    private void OnBeameInvisible()
+    private void OnBecameInvisible()
     {
         Reset();
     }
@@ -53,10 +53,6 @@ public class Enemy : MonoBehaviour
         if (collision.gameObject.tag == "Wall" || collision.gameObject.tag == "NecroCat" || collision.gameObject.tag == "Enemy")
         {
             _rigidBody.velocity = Vector3.zero;
-        }
-        if (collision.gameObject.tag == "Summons")
-        {
-            Kill();
         }
     }
 }
