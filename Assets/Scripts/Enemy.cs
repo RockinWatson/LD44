@@ -3,9 +3,6 @@
 public class Enemy : MonoBehaviour
 {
     [SerializeField]
-    private GameObject _corpse = null;
-
-    [SerializeField]
     private float speed = 1.0f;
 
     [SerializeField]
@@ -64,7 +61,6 @@ public class Enemy : MonoBehaviour
     public void Kill()
     {
         Instantiate(_deathFX, this.transform.position, Quaternion.identity);
-        Instantiate(_corpse, this.transform.position, Quaternion.identity);
 
         Reset();
     }
@@ -85,7 +81,6 @@ public class Enemy : MonoBehaviour
     private void UpdateHealthVisual()
     {
         Color color = _renderer.color;
-        //color.r = (1f - (_health/_maxHealth));
         float gradient = (_health / _maxHealth);
         color.g = gradient;
         color.b = gradient;
