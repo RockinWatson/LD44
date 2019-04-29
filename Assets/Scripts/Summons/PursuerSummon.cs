@@ -8,6 +8,7 @@ public class PursuerSummon : Summon
     private float _speed = 5f;
 
     private Enemy _target = null;
+    public Enemy GetTarget() { return _target; }
 
     readonly float _targetRefindTime = 4f;
     private float _targetTimer = 0f;
