@@ -39,25 +39,12 @@ public class Player : MonoBehaviour {
         {
             HarvestCorpses();
         }
-        if (Input.GetKeyDown(KeyCode.Alpha1))
+        for(int i = 0; i < 5; ++i)
         {
-            Summon(0);
-        }
-        if (Input.GetKeyDown(KeyCode.Alpha2))
-        {
-            Summon(1);
-        }
-        if (Input.GetKeyDown(KeyCode.Alpha3))
-        {
-            Summon(2);
-        }
-        if (Input.GetKeyDown(KeyCode.Alpha4))
-        {
-            Summon(3);
-        }
-        if (Input.GetKeyDown(KeyCode.Alpha5))
-        {
-            Summon(4);
+            if (Input.GetKeyDown(KeyCode.Alpha1 + i))
+            {
+                Summon(i);
+            }
         }
     }
 
