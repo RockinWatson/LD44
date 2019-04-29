@@ -1707,6 +1707,11 @@ Prefab:
       propertyPath: m_Name
       value: EnemySpawner (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 114180018432233970, guid: 9d9e830d59ccd41508339dc6da418139,
+        type: 2}
+      propertyPath: _initialCountDown
+      value: 3.75
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9d9e830d59ccd41508339dc6da418139, type: 2}
   m_IsPrefabParent: 0
@@ -3428,6 +3433,11 @@ Prefab:
       propertyPath: m_Name
       value: EnemySpawner (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 114180018432233970, guid: 9d9e830d59ccd41508339dc6da418139,
+        type: 2}
+      propertyPath: _initialCountDown
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9d9e830d59ccd41508339dc6da418139, type: 2}
   m_IsPrefabParent: 0
@@ -3572,6 +3582,11 @@ Prefab:
     - target: {fileID: 1620827461541698, guid: 9d9e830d59ccd41508339dc6da418139, type: 2}
       propertyPath: m_Name
       value: EnemySpawner (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114180018432233970, guid: 9d9e830d59ccd41508339dc6da418139,
+        type: 2}
+      propertyPath: _initialCountDown
+      value: 3.25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9d9e830d59ccd41508339dc6da418139, type: 2}
