@@ -11,6 +11,7 @@ public class Veterinarian : PursuerSummon {
         if((target.transform.position - this.transform.position).sqrMagnitude < 1f)
         {
             target.Kill();
+            KillPause();
         }
     }
 }
