@@ -9,19 +9,10 @@ public class PursuerSummon : Summon
 
     private Enemy _target = null;
 
-    private float _targetRefindTime = 4f;
+    readonly float _targetRefindTime = 4f;
     private float _targetTimer = 0f;
 
-    //override protected void Update()
-    //{
-    //    base.Update();
-
-    //    //if(!_target)
-    //    //{
-    //    //    SetNearestTarget();
-    //    //}
-    //    //UpdateMovement();
-    //}
+    private Vector3 _targetVecloity;
 
     private void FixedUpdate()
     {
@@ -38,12 +29,15 @@ public class PursuerSummon : Summon
                 SetNearestTarget();
             }
 
-            transform.position += (_target.transform.position - transform.position).normalized * _speed * Time.fixedDeltaTime;
+            _targetVecloity = (_target.transform.position - transform.position).normalized * _speed * Time.fixedDeltaTime;
+            transform.position += _targetVecloity;
         }
         else
         {
             SetNearestTarget();
         }
+
+        UpdateHeading();
     }
 
     private void SetNearestTarget()
@@ -67,5 +61,17 @@ public class PursuerSummon : Summon
             }
         }
         return nearest;
+    }
+
+    private void UpdateHeading()
+    {
+        float xDirection = _targetVecloity.x;
+        const float epsilon = 0.01f;
+        if (Mathf.Abs(xDirection) > epsilon)
+        {
+            Vector3 scale = this.transform.localScale;
+            scale.x = (_targetVecloity.x <= 0f) ? -1f : 1f;
+            this.transform.localScale = scale;
+        }
     }
 }
