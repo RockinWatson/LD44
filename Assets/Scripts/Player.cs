@@ -11,7 +11,7 @@ public class Player : MonoBehaviour {
     private GameObject[] _summons = null;
 
     [SerializeField]
-    private float _healthStart = 2000f;
+    private float _healthStart = 9000f;
     [SerializeField]
     private float _healthMax = 9000f;
     private float _health = 9000f;
@@ -22,6 +22,9 @@ public class Player : MonoBehaviour {
         _health -= 1500f;
     }
     private float _score = 0f;
+    public float GetScore() {
+        return _score;
+    }
 
     [SerializeField]
     private float _elementZeroCost;
@@ -47,6 +50,8 @@ public class Player : MonoBehaviour {
         _player = this;
 
         _health = _healthStart;
+
+        _score = 0f;
     }
 
     private void Update()
