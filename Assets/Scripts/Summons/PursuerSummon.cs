@@ -22,7 +22,7 @@ public class PursuerSummon : Summon
 
     private void UpdateMovement()
     {
-        if (_target)
+        if (_target && _target.gameObject.activeSelf)
         {
             _targetTimer -= Time.fixedDeltaTime;
             if (_targetTimer < 0f)
