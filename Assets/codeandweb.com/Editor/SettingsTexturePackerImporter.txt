@@ -3,6 +3,7 @@ importPivots: 1
 tpsheetFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
 - Assets/Taylor/Level/cathat.tpsheet
+- Assets/Taylor/Level/day4.tpsheet
 - Assets/Taylor/Level/Level.tpsheet
 - Assets/Taylor/Level/lightning.tpsheet
 - Assets/Taylor/Level/lightning2.tpsheet
@@ -13,6 +14,7 @@ tpsheetFileNames:
 textureFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 - Assets/Taylor/Level/cathat.png
+- Assets/Taylor/Level/day4.png
 - Assets/Taylor/Level/Level.png
 - Assets/Taylor/Level/lightning.png
 - Assets/Taylor/Level/lightning2.png
@@ -22,6 +24,7 @@ textureFileNames:
 - Assets/Taylor/Level/storytext.png
 normalmapFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
 - 
 - 
 - 
