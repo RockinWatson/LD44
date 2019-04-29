@@ -15,6 +15,9 @@ public class Player : MonoBehaviour {
     [SerializeField]
     private float _healthMax = 9000f;
     private float _health = 9000f;
+    public float GetHealth() {
+        return _health;
+    }
 
     [SerializeField]
     private float _harvestRadius = 3f;

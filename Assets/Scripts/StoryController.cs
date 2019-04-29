@@ -10,6 +10,7 @@ public class StoryController : MonoBehaviour {
     private bool isStory;
     public AudioSource storyMusic;
     public AudioSource select;
+    public AudioSource lightning;
 
     private Vector3 cardPos;
     private GameObject card2;
@@ -95,6 +96,7 @@ public class StoryController : MonoBehaviour {
             else if (card5.transform.position.x != cardPos.x)
             {
                 card5.transform.position = cardPos;
+                lightning.Play();
             }
             else if (card6.transform.position.x != cardPos.x)
             {

@@ -54,5 +54,9 @@ public class Enemy : MonoBehaviour
         {
             _rigidBody.velocity = Vector3.zero;
         }
+        if (collision.gameObject.tag == "Summons")
+        {
+            Kill();
+        }
     }
 }
