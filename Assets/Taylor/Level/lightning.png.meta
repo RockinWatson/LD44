@@ -1,0 +1,322 @@
+fileFormatVersion: 2
+guid: 4f3f318dfd367524ba5d5e153e3911df
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: lightning
+    21300002: lightning2_000
+    21300004: lightning2_001
+    21300006: lightning2_002
+    21300008: lightning2_003
+    21300010: lightning2_004
+    21300012: lightning2_005
+    21300014: lightning2_006
+    21300016: lightning2_007
+    21300018: lightning2_008
+    21300020: lightning2_009
+    21300022: lightning2_010
+    21300024: lightning2_011
+    21300026: lightning2_012
+    21300028: lightning2_013
+    21300030: lightning2_014
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lightning2_000
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1854
+        width: 905
+        height: 193
+      alignment: 9
+      pivot: {x: 0.57403314, y: 2.0025907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightning2_001
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 1854
+        width: 835
+        height: 193
+      alignment: 9
+      pivot: {x: 0.53832334, y: 2.0025907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightning2_002
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 152
+        width: 753
+        height: 193
+      alignment: 9
+      pivot: {x: 0.4880478, y: 2.0025907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightning2_003
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 157
+        width: 670
+        height: 193
+      alignment: 9
+      pivot: {x: 0.42462686, y: 2.0025907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightning2_004
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 1659
+        width: 588
+        height: 193
+      alignment: 9
+      pivot: {x: 0.34438777, y: 2.0025907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightning2_005
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 1464
+        width: 505
+        height: 193
+      alignment: 9
+      pivot: {x: 0.23663366, y: 2.0025907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightning2_006
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 1269
+        width: 422
+        height: 193
+      alignment: 9
+      pivot: {x: 0.08649289, y: 2.0025907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightning2_007
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 1074
+        width: 340
+        height: 193
+      alignment: 9
+      pivot: {x: -0.13382353, y: 2.0025907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightning2_008
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 1854
+        width: 257
+        height: 193
+      alignment: 9
+      pivot: {x: -0.5, y: 2.0025907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightning2_009
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 1124
+        width: 453
+        height: 728
+      alignment: 9
+      pivot: {x: -0.12693156, y: 0.5364011}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightning2_010
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 379
+        width: 453
+        height: 733
+      alignment: 9
+      pivot: {x: -0.12693156, y: 0.53274214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightning2_011
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 1114
+        width: 459
+        height: 738
+      alignment: 9
+      pivot: {x: -0.11220044, y: 0.5291328}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightning2_012
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 352
+        width: 453
+        height: 745
+      alignment: 9
+      pivot: {x: -0.14238411, y: 0.5241611}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightning2_013
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 347
+        width: 449
+        height: 750
+      alignment: 9
+      pivot: {x: -0.15033408, y: 0.52066666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: lightning2_014
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1099
+        width: 478
+        height: 753
+      alignment: 9
+      pivot: {x: -0.08682008, y: 0.5185923}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
