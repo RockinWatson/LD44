@@ -54,9 +54,11 @@ MonoBehaviour:
   Objects:
   - {fileID: 1473049310205454, guid: 75d0c234346380a4fbb7c7ce07d98a28, type: 2}
   ObjectPoolSize: 10
-  WaitForNextMax: 3
-  WaitForNextMin: 6
-  CountDown: 0
+  _waitForNextMin: 1
+  _waitForNextMax: 10
+  _waitForNextRange: 3
+  _initialCountDown: 3
+  _intendedGameTimeSeconds: 120
   enemySprites:
   - {fileID: 21300000, guid: 0d0dbe8bd5ce6f84d95ea5acc7e5f143, type: 3}
   - {fileID: 21300000, guid: 8f113e6f0847dac4ea98b2f3b381f01b, type: 3}
