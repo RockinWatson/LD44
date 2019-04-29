@@ -41,7 +41,7 @@ public class TitleController : MonoBehaviour {
         AudioSource[] audio = GetComponents<AudioSource>();
         titleMusic = audio[0];
         select = audio[1];
-        select.volume = .7f;
+        select.volume = .5f;
         titleMusic.volume = .9f;
         select.playOnAwake = false;
         titleMusic.Play();

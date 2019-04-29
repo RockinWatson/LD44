@@ -98,6 +98,9 @@ public class PlayerController : MonoBehaviour {
         SlideTrail trail = go.GetComponent<SlideTrail>(); // (SlideTrail)Instantiate(_slideTrail);
         trail.Initialize(this);
 
+        //Play slide audio
+        AudioController.dash.Play();
+
     }
 
     private void FlipPlayer() {
