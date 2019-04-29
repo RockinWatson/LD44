@@ -198,9 +198,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae91ab9053e0a482bbd0ff66e9145bd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _deathFX: {fileID: 1685993043233582, guid: 706fa684f77ae42bfa5bee64e8248de5, type: 2}
   _lifetime: 15
   _healthCost: 10
   _speed: 3
+  _killPause: 1
 --- !u!212 &212274893040887004
 SpriteRenderer:
   m_ObjectHideFlags: 1

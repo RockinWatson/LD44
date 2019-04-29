@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4376895554631000}
   - component: {fileID: 212840133229255812}
   - component: {fileID: 95145176905828830}
-  - component: {fileID: 114502311320479166}
+  - component: {fileID: 114466043424437624}
   m_Layer: 0
   m_Name: DeathBlowyBigFX
   m_TagString: Untagged
@@ -59,7 +59,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114502311320479166
+--- !u!114 &114466043424437624
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -67,10 +67,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1685993043233582}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f264d442bc064647bf13d7247717fc9, type: 3}
+  m_Script: {fileID: 11500000, guid: bd244ab426fda448480399bc282717df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _delay: 0
+  _corpse: {fileID: 0}
+  _animSpeed: 0.45
 --- !u!212 &212840133229255812
 SpriteRenderer:
   m_ObjectHideFlags: 1
