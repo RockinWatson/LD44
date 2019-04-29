@@ -54,6 +54,7 @@ public class PursuerSummon : Summon
         Enemy[] enemies = FindObjectsOfType<Enemy>();
         foreach (Enemy enemy in enemies)
         {
+            if (enemy.gameObject.activeSelf == false) continue;
             float distance = (this.transform.position - enemy.transform.position).sqrMagnitude;
             if (distance < bestDistance)
             {
