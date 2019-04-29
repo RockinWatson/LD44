@@ -2,32 +2,14 @@ version: 2
 importPivots: 1
 tpsheetFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
-- Assets/Taylor/Level/cathat.tpsheet
 - Assets/Taylor/Level/Level.tpsheet
-- Assets/Taylor/Level/lightning.tpsheet
-- Assets/Taylor/Level/lightning2.tpsheet
 - Assets/Taylor/Level/ManyAnimations.tpsheet
-- Assets/Taylor/Level/Robot.tpsheet
-- Assets/Taylor/Level/Sprites1.tpsheet
-- Assets/Taylor/Level/storytext.tpsheet
 textureFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
-- Assets/Taylor/Level/cathat.png
 - Assets/Taylor/Level/Level.png
-- Assets/Taylor/Level/lightning.png
-- Assets/Taylor/Level/lightning2.png
 - Assets/Taylor/Level/ManyAnimations.png
-- Assets/Taylor/Level/Robot.png
-- Assets/Taylor/Level/Sprites1.png
-- Assets/Taylor/Level/storytext.png
 normalmapFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
-- 
-- 
-- 
-- 
-- 
-- 
 - 
 - 
 enableDebugOutput: 0
