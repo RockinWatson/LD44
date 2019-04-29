@@ -92,11 +92,11 @@ public class Player : MonoBehaviour {
         }
     }
 
-    private void OnGUI()
-    {
-        Rect rect = new Rect(Vector2.zero, new Vector2(200f, 50f));
-        GUI.TextArea(rect, _health + " / " + _healthMax);
-    }
+    //private void OnGUI()
+    //{
+    //    Rect rect = new Rect(Vector2.zero, new Vector2(200f, 50f));
+    //    GUI.TextArea(rect, _health + " / " + _healthMax);
+    //}
 
     private void Summon(int index)
     {
