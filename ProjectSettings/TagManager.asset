@@ -86,3 +86,27 @@ TagManager:
   - name: Text
     uniqueID: 2306792767
     locked: 0
+  - name: story1
+    uniqueID: 3436031023
+    locked: 0
+  - name: story2
+    uniqueID: 651940777
+    locked: 0
+  - name: story3
+    uniqueID: 3822185965
+    locked: 0
+  - name: story4
+    uniqueID: 3550242011
+    locked: 0
+  - name: story5
+    uniqueID: 474339847
+    locked: 0
+  - name: story6
+    uniqueID: 4190307433
+    locked: 0
+  - name: story7
+    uniqueID: 2959498209
+    locked: 0
+  - name: story8
+    uniqueID: 2876025963
+    locked: 0
