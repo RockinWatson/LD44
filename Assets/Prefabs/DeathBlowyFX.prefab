@@ -71,6 +71,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _corpse: {fileID: 1508972050601534, guid: ce63197a0d66243be8c3e093c7f7da01, type: 2}
+  _animSpeed: 0.6
 --- !u!212 &212840133229255812
 SpriteRenderer:
   m_ObjectHideFlags: 1

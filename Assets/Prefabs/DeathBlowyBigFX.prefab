@@ -71,6 +71,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _corpse: {fileID: 0}
+  _animSpeed: 0.45
 --- !u!212 &212840133229255812
 SpriteRenderer:
   m_ObjectHideFlags: 1
