@@ -118,7 +118,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _harvestFX: {fileID: 1059001505283228, guid: d3ed1deca2f19465db3902fc77f1bcf5, type: 2}
-  _harvestValue: 30
+  _harvestValue: 500
   _lifetime: 5
   _deathTime: 3
 --- !u!212 &212248947935577406
