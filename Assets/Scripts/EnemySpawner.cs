@@ -68,14 +68,14 @@ namespace Assets.Scripts
             }
         }
 
-        private void SpawnRandObj(List<GameObject> objPool, Transform transform)
+        private void SpawnRandObj(List<GameObject> objPool, Transform xform)
         {
             if (objPool != null)
             {
                 GameObject gameObj = objPool[Random.Range(0, objPool.Count)];
                 if (!gameObj.activeInHierarchy)
                 {
-                    InstantiateObject(gameObj, transform);
+                    InstantiateObject(gameObj, xform);
                 }
             }
         }
