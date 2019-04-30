@@ -21,6 +21,10 @@ public class Player : MonoBehaviour {
     public void TakeDmg() {
         _health -= 1500f;
     }
+    public void AddHealth(float value)
+    {
+        _health = Mathf.Min(_health + value, _healthMax);
+    }
     private float _score = 0f;
 
     [SerializeField]
@@ -84,8 +88,7 @@ public class Player : MonoBehaviour {
                     Corpse corpse = hit.transform.GetComponent<Corpse>();
                     if (corpse && !corpse.IsHarvested())
                     {
-                        float value = corpse.Harvest();
-                        _health = Mathf.Min(_health + value, _healthMax);
+                        corpse.Harvest();
                     }
                 }
             }
