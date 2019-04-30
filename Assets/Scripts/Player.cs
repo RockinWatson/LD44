@@ -19,7 +19,7 @@ public class Player : MonoBehaviour {
         return _health;
     }
     public void TakeDmg() {
-        _health -= 1500f;
+        _health = Mathf.Max(0f, _health - 500f);
     }
     public void AddHealth(float value)
     {
