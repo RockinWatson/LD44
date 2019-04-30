@@ -124,6 +124,12 @@ MonoBehaviour:
   - {fileID: 1824991192435556, guid: 7c1cc5a647dc5438fa3ac13e5d106131, type: 2}
   - {fileID: 1833974558329336, guid: d8e29c9e6db144797ae207fd4d3e5663, type: 2}
   - {fileID: 1996504708546098, guid: b859acdde3ede46beae7cb15c7a42039, type: 2}
+  _summonCosts:
+  - 500
+  - 750
+  - 1000
+  - 1250
+  - 1750
   _healthStart: 2000
   _healthMax: 9000
   _elementZeroCost: 1000
