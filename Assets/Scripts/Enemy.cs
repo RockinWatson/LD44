@@ -53,7 +53,10 @@ public class Enemy : MonoBehaviour
 
     private void UpdateMovement()
     {
-        transform.position += (_target.transform.position - transform.position).normalized * speed * Time.fixedDeltaTime;
+        if (_target)
+        {
+            transform.position += (_target.transform.position - transform.position).normalized * speed * Time.fixedDeltaTime;
+        }
     }
 
     private void Reset()
