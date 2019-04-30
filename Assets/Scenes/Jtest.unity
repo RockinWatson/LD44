@@ -1954,7 +1954,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 846248075}
-  m_Text: 'Cost: 25'
+  m_Text: 'Cost: 3000'
   m_OffsetZ: 0
   m_CharacterSize: 0.1
   m_LineSpacing: 1
@@ -2084,7 +2084,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 889633365}
-  m_Text: 'Cost: 25'
+  m_Text: 'Cost: 2500'
   m_OffsetZ: 0
   m_CharacterSize: 0.1
   m_LineSpacing: 1
@@ -2173,19 +2173,14 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 114468406833573974, guid: 69a2a34b45658465bbcfce23aa6f9aa6,
         type: 2}
-      propertyPath: _scoreTextMesh
-      value: 
-      objectReference: {fileID: 1955305412}
-    - target: {fileID: 114468406833573974, guid: 69a2a34b45658465bbcfce23aa6f9aa6,
-        type: 2}
       propertyPath: _healthText
       value: 
       objectReference: {fileID: 2096419363}
     - target: {fileID: 114468406833573974, guid: 69a2a34b45658465bbcfce23aa6f9aa6,
         type: 2}
-      propertyPath: _healthStart
-      value: 9000
-      objectReference: {fileID: 0}
+      propertyPath: _scoreTextMesh
+      value: 
+      objectReference: {fileID: 1955305412}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 69a2a34b45658465bbcfce23aa6f9aa6, type: 2}
   m_IsPrefabParent: 0
@@ -2492,7 +2487,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1228980206}
-  m_Text: 'Cost: 25'
+  m_Text: 'Cost: 2000'
   m_OffsetZ: 0
   m_CharacterSize: 0.1
   m_LineSpacing: 1
@@ -2855,7 +2850,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1394519745}
-  m_Text: 'Cost: 25'
+  m_Text: 'Cost: 1000'
   m_OffsetZ: 0
   m_CharacterSize: 0.1
   m_LineSpacing: 1
@@ -4935,7 +4930,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2121088897}
-  m_Text: 'Cost: 25'
+  m_Text: 'Cost: 1500'
   m_OffsetZ: 0
   m_CharacterSize: 0.1
   m_LineSpacing: 1
