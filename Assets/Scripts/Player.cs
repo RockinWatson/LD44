@@ -31,6 +31,9 @@ public class Player : MonoBehaviour {
     }
 
     [SerializeField]
+    private TextMesh _healthText;
+
+    [SerializeField]
     private float _elementZeroCost;
     [SerializeField]
     private float _elementOneCost;
@@ -76,6 +79,8 @@ public class Player : MonoBehaviour {
                 Summon(i);
             }
         }
+
+        _healthText.text = _health.ToString();
     }
 
     private void HarvestCorpses()
