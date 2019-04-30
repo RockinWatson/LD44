@@ -22,7 +22,8 @@ public class BloodController : MonoBehaviour {
     {
         UpdateBloodLevelVisual();
 
-        if (BloodLevel.transform.position.x <= _bloodLevelMinPosX)
+        //if (BloodLevel.transform.position.x <= _bloodLevelMinPosX)
+        if(Player.Get().GetHealth() <= 0f)
         {
             PlayerPrefs.SetInt("HighScore", (int)Player.Get().GetScore());
             SceneManager.LoadScene("GameOver");
