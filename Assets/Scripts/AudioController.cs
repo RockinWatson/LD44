@@ -16,6 +16,7 @@ public class AudioController : MonoBehaviour {
     public static AudioSource dog2;
     public static AudioSource dogdie1;
     public static AudioSource dogdie2;
+    public static AudioSource catdie;
 
     // Use this for initialization
     void Awake () {
@@ -43,6 +44,7 @@ public class AudioController : MonoBehaviour {
         dog2 = audio[9];
         dogdie1 = audio[10];
         dogdie2 = audio[11];
+        catdie = audio[12];
 
         audio[0].volume = .95f;
         audio[1].volume = .25f;
@@ -56,6 +58,7 @@ public class AudioController : MonoBehaviour {
         audio[9].volume = .6f;
         audio[10].volume = .4f;
         audio[11].volume = .4f;
+        audio[12].volume = .5f;
 
         audio[0].loop = true;
     }

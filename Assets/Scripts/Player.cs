@@ -155,6 +155,8 @@ public class Player : MonoBehaviour {
 
             PlayerPrefs.SetInt("HighScore", (int)Player.Get().GetScore());
 
+            AudioController.catdie.Play();
+
             Invoke("LoadGameOver", 5f);
         }
     }
