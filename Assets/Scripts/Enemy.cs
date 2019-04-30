@@ -15,6 +15,10 @@ public class Enemy : MonoBehaviour
     private Rigidbody2D _rigidBody;
     private SpriteRenderer _renderer;
 
+    private GameObject _target = null;
+    private float _targetRefindTime = 2f;
+    private float _targetRefindTimer = 0f;
+
     private float _stunTimer = 0f;
     public void Stun(float time) { _stunTimer = time; }
 
@@ -33,6 +37,7 @@ public class Enemy : MonoBehaviour
         {
             speed = 1.0f;
         }
+        UpdateTarget();
         UpdateHealthVisual();
     }
 
@@ -48,8 +53,7 @@ public class Enemy : MonoBehaviour
 
     private void UpdateMovement()
     {
-        Player player = Player.Get();
-        transform.position += (player.transform.position - transform.position).normalized * speed * Time.fixedDeltaTime;
+        transform.position += (_target.transform.position - transform.position).normalized * speed * Time.fixedDeltaTime;
     }
 
     private void Reset()
@@ -93,6 +97,33 @@ public class Enemy : MonoBehaviour
         if(_health < 0f)
         {
             Kill();
+        }
+    }
+
+    private void UpdateTarget()
+    {
+        _targetRefindTimer -= Time.deltaTime;
+        if(_targetRefindTimer < 0f)
+        {
+            SetTarget();
+            _targetRefindTimer = _targetRefindTime;
+        }
+    }
+
+    private void SetTarget()
+    {
+        float bestDistance = Mathf.Infinity;
+        Decoy[] decoys = FindObjectsOfType<Decoy>();
+        foreach(Decoy decoy in decoys)
+        {
+            if((this.transform.position - decoy.transform.position).sqrMagnitude < bestDistance)
+            {
+                _target = decoy.gameObject;
+            }
+        }
+        if(!_target)
+        {
+            _target = Player.Get().gameObject;
         }
     }
 }
