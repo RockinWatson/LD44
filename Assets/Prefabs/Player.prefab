@@ -124,15 +124,19 @@ MonoBehaviour:
   - {fileID: 1824991192435556, guid: 7c1cc5a647dc5438fa3ac13e5d106131, type: 2}
   - {fileID: 1833974558329336, guid: d8e29c9e6db144797ae207fd4d3e5663, type: 2}
   - {fileID: 1996504708546098, guid: b859acdde3ede46beae7cb15c7a42039, type: 2}
-  _healthStart: 9000
+  _summonCosts:
+  - 500
+  - 750
+  - 1000
+  - 1250
+  - 1750
+  _healthStart: 2000
   _healthMax: 9000
-  _healthText: {fileID: 0}
   _elementZeroCost: 1000
   _elementOneCost: 1500
   _elementTwoCost: 2000
   _elementThreeCost: 2500
-  _elementFourCost: 3000
-  _scoreTextMesh: {fileID: 0}
+  _elementFourCost: 3500
   _harvestRadius: 1
 --- !u!114 &114968482367078298
 MonoBehaviour:
