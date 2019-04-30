@@ -132,12 +132,10 @@ MonoBehaviour:
   - 1750
   _healthStart: 2000
   _healthMax: 9000
-  _elementZeroCost: 1000
-  _elementOneCost: 1500
-  _elementTwoCost: 2000
-  _elementThreeCost: 2500
-  _elementFourCost: 3500
+  _healthText: {fileID: 0}
+  _scoreTextMesh: {fileID: 0}
   _harvestRadius: 1
+  _deathFX: {fileID: 1685993043233582, guid: 7d08fd65d5ccf4b0fbe55864b411dc6e, type: 2}
 --- !u!114 &114968482367078298
 MonoBehaviour:
   m_ObjectHideFlags: 1
