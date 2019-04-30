@@ -8,6 +8,7 @@ tpsheetFileNames:
 - Assets/Taylor/Level/lightning.tpsheet
 - Assets/Taylor/Level/lightning2.tpsheet
 - Assets/Taylor/Level/ManyAnimations.tpsheet
+- Assets/Taylor/Level/NecroCat.tpsheet
 - Assets/Taylor/Level/Robot.tpsheet
 - Assets/Taylor/Level/Sprites1.tpsheet
 - Assets/Taylor/Level/storytext.tpsheet
@@ -19,11 +20,13 @@ textureFileNames:
 - Assets/Taylor/Level/lightning.png
 - Assets/Taylor/Level/lightning2.png
 - Assets/Taylor/Level/ManyAnimations.png
+- Assets/Taylor/Level/NecroCat.png
 - Assets/Taylor/Level/Robot.png
 - Assets/Taylor/Level/Sprites1.png
 - Assets/Taylor/Level/storytext.png
 normalmapFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
 - 
 - 
 - 
