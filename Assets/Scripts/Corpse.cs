@@ -69,6 +69,11 @@ public class Corpse : MonoBehaviour {
         _isHarvested = true;
         _deathTimer = _deathTime;
 
+        if (!AudioController.pickup.isPlaying)
+        {
+            AudioController.pickup.Play();
+        }
+
         GameObject go = Instantiate(_harvestFX, this.transform);
         _FX = go.GetComponent<HarvestFX>();
 
