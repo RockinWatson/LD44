@@ -10,6 +10,7 @@ public class Player : MonoBehaviour {
     [SerializeField]
     private GameObject[] _summons = null;
 
+    private int _sfxPick;
     [SerializeField]
     private float _healthStart = 9000f;
     [SerializeField]
@@ -20,6 +21,8 @@ public class Player : MonoBehaviour {
     }
     public void TakeDmg() {
         _health = Mathf.Max(0f, _health - 500f);
+        PlayDogSFX();
+
     }
     public void AddHealth(float value)
     {
@@ -110,6 +113,19 @@ public class Player : MonoBehaviour {
     //    Rect rect = new Rect(Vector2.zero, new Vector2(200f, 50f));
     //    GUI.TextArea(rect, _health + " / " + _healthMax);
     //}
+
+    private void PlayDogSFX()
+    {
+        if (!AudioController.dog1.isPlaying || !AudioController.dog2.isPlaying)
+        {
+            _sfxPick = Random.Range(1, 3);
+            if (_sfxPick == 1)
+            {
+                AudioController.dog1.Play();
+            }
+            else { AudioController.dog2.Play(); }
+        }
+    }
 
     private void Summon(int index)
     {

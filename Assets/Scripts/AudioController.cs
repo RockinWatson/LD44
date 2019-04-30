@@ -49,7 +49,7 @@ public class AudioController : MonoBehaviour {
         audio[6].volume = .5f;
         audio[7].volume = .5f;
         audio[8].volume = .5f;
-        audio[9].volume = .5f;
+        audio[9].volume = .6f;
 
         audio[0].loop = true;
     }
