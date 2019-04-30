@@ -64,7 +64,7 @@ public class Corpse : MonoBehaviour {
         }
     }
 
-    public float Harvest()
+    public void Harvest()
     {
         _isHarvested = true;
         _deathTimer = _deathTime;
@@ -76,6 +76,6 @@ public class Corpse : MonoBehaviour {
         color.a = 1.0f;
         _renderer.color = color;
 
-        return _harvestValue;
+        Player.Get().AddHealth(_harvestValue);
     }
 }
