@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BloodController : MonoBehaviour {
 
@@ -20,6 +21,12 @@ public class BloodController : MonoBehaviour {
     void Update()
     {
         UpdateBloodLevelVisual();
+
+        if (BloodLevel.transform.position.x <= _bloodLevelMinPosX)
+        {
+            PlayerPrefs.SetInt("HighScore", (int)Player.Get().GetScore());
+            SceneManager.LoadScene("GameOver");
+        }
     }
 
     private void UpdateBloodLevelVisual()
