@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour
     [SerializeField]
     private float _health = 10f;
     private float _maxHealth;
+    private int _sfxPick;
 
     [SerializeField]
     private GameObject _deathFX = null;
@@ -68,6 +69,7 @@ public class Enemy : MonoBehaviour
     public void Kill()
     {
         Instantiate(_deathFX, this.transform.position, Quaternion.identity);
+        DogDieSFX();
 
         Reset();
     }
@@ -127,6 +129,19 @@ public class Enemy : MonoBehaviour
         if(!_target)
         {
             _target = Player.Get().gameObject;
+        }
+    }
+
+    private void DogDieSFX()
+    {
+        if (!AudioController.dogdie1 || !AudioController.dogdie2.isPlaying)
+        {
+            _sfxPick = Random.Range(1, 3);
+            if (_sfxPick == 1)
+            {
+                AudioController.dogdie1.Play();
+            }
+            else { AudioController.dogdie2.Play(); }
         }
     }
 }
