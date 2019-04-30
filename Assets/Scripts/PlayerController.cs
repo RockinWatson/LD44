@@ -38,6 +38,8 @@ public class PlayerController : MonoBehaviour {
 
     private void Update()
     {
+        if (Player.Get().IsDead()) return;
+
         //_targetVelocity = new Vector3(Input.GetAxis("Horizontal") * _runSpeed, Input.GetAxis("Vertical") * _runSpeed, 0.0f);
         _targetVelocity.x = Input.GetAxis("Horizontal");
         _targetVelocity.y = Input.GetAxis("Vertical");
@@ -58,6 +60,8 @@ public class PlayerController : MonoBehaviour {
 
     private void FixedUpdate()
     {
+        if (Player.Get().IsDead()) return;
+
         _rigidBody.velocity = Vector3.SmoothDamp(_rigidBody.velocity, _targetVelocity, ref _velocity, _smoothing) * Time.fixedDeltaTime;
 
         //if(_slideGo)

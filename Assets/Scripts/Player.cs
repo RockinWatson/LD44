@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour {
 
@@ -47,6 +48,11 @@ public class Player : MonoBehaviour {
 
     private int _sfxPick;
 
+    [SerializeField]
+    private GameObject _deathFX = null;
+    private bool _isDead = false;
+    public bool IsDead() { return _isDead; }
+
     private void Awake()
     {
         _player = this;
@@ -58,6 +64,8 @@ public class Player : MonoBehaviour {
 
     private void Update()
     {
+        if(_isDead) return;
+        CheckDeath();
         UpdateInput();
     }
 
@@ -122,7 +130,7 @@ public class Player : MonoBehaviour {
     private void Summon(int index)
     {
         float cost = _summonCosts[index];
-        if (cost <= _health)
+        if (cost < _health)
         {
             Instantiate(_summons[index], this.transform.position, Quaternion.identity);
 
@@ -133,5 +141,26 @@ public class Player : MonoBehaviour {
         {
             //@TODO: Potential SFX for can't summon.
         }
+    }
+
+    private void CheckDeath()
+    {
+        if(!_isDead && _health <= 0f)
+        {
+            _isDead = true;
+
+            this.GetComponent<SpriteRenderer>().color = Color.clear;
+
+            Instantiate(_deathFX, this.transform.position, Quaternion.identity);
+
+            PlayerPrefs.SetInt("HighScore", (int)Player.Get().GetScore());
+
+            Invoke("LoadGameOver", 5f);
+        }
+    }
+
+    private void LoadGameOver()
+    {
+        SceneManager.LoadScene("GameOver");
     }
 }
